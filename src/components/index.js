@@ -1,0 +1,6 @@
+export {default as Navbar} from './Navbar/Navbar'
+export {default as HomeMain} from './Home-main/Home-main'
+export {default as HomePartners} from './Home-partners/Home-partners'
+export {default as HomeServices} from './Home-services/Home-services'
+export {default as HomeBanner} from './Home-banner/Home-banner'
+export {default as HomeCustomers} from './Home-customers/Home-customers'

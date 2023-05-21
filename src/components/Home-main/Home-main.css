@@ -1,0 +1,124 @@
+.home-main {
+  width: 100%;
+  height: auto;
+  background: url("../../assets/images/Home-image/main-bg.gif") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.main-element {
+  max-width: 1140px;
+  margin: 25px auto;
+  padding: 50px 20px;
+}
+.main-text-box {
+  width: 55%;
+  height: 100%;
+}
+.main-text-box .text-box-header h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+.main-text-box .text-box-header p {
+  font-size: var(--md-font-size);
+  line-height: 30px;
+}
+.main-text-box .text-box-button {
+  background: linear-gradient(180deg, #f08200 0%, #f0ca00 100%);
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+ 
+}
+.main-text-box .text-box-button a{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: var(--md-font-size);
+     font-weight: 500;
+     color: var( --dark-color);
+     width: 100%;
+     height: 100%;
+}
+
+.main-image-box{
+     width: 45%;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+}
+.main-image-box img{
+     width: 450px;
+}
+
+
+.main-widget{
+     margin-top: 70px;
+     padding: 0px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 40px 0px;
+}
+.main-widget-box{
+     width: 255px;
+}
+.main-widget-box .title h3{
+     font-size: var(--md-2-font-size);
+     font-weight: 500;
+
+}
+.main-widget-box .desc p{
+     font-size: var(--sm-font-size);
+     
+}
+
+@media only screen and (max-width: 980px){
+     .main-element .element-container{
+          flex-direction: column;
+          align-items: center;
+     }
+     .main-text-box {
+          width: 100%;
+          height: auto;
+          text-align: center;
+     }
+     .main-text-box .text-box-button{
+          margin: 30px auto;
+     }
+     .main-text-box .text-box-header h1{
+          margin-bottom: 20px;
+     }
+     .main-widget{
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+     }
+}
+@media only screen and (max-width: 500px){
+     .main-element {
+          width: 310px;
+          margin: 25px auto;
+          padding: 50px 5px;
+        }
+     .main-image-box img{
+          width: 300px;
+     }
+     .main-text-box .text-box-header h1{
+          font-size: 35px;
+     }
+     .main-text-box .text-box-header p{
+          font-size: 12px;
+          line-height: 25px;
+     }
+     .main-widget-box .title h3{
+          font-size: var(--md-font-size);
+     }
+     .main-widget-box .desc p{
+          font-size: 12px;
+     }
+     
+   
+}
+
