@@ -1,0 +1,98 @@
+.our-preferences{
+     width: 100%;
+     height: 800px;
+     background: url('../../assets/images/Home-image/our-preferences-bg.gif') ;
+     color: #fff;
+     padding: 50px ;
+}
+.our-preferences-element {
+     max-width: 1140px;
+     width: 100%;
+     margin: 0px auto;
+}
+.our-preferences .title{
+     font-size: var(--md-2-font-size);
+     font-weight: 500;
+}
+.our-preferences-cardBox{
+     height: 550px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: end;
+     margin-top: 80px;
+}
+
+.our-preferences-cardBox .card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 0 15px;   
+}
+.our-preferences-cardBox .card:first-child{
+     margin-right: 200px;
+}
+.our-preferences-cardBox .card:nth-child(2){
+     margin-right: 120px;
+}
+.our-preferences-cardBox .card:nth-child(4){
+     margin-right: 120px;
+}
+.our-preferences-cardBox .card:nth-child(5){
+     margin-right: 200px;
+}
+.our-preferences-cardBox .card .card-box_r{
+     width: 320px;
+     display: flex;
+}
+.our-preferences-cardBox .card-box_r .card-content{
+     display: flex;
+     flex-direction: column;
+     gap: 3px 0;
+}
+.our-preferences-cardBox .card-box_r .card-content p{
+     font-size: 18px;
+     font-weight: 600;
+}
+@media only screen and (max-width: 1050px){
+     .our-preferences-cardBox .card:first-child,
+     .our-preferences-cardBox .card:nth-child(2),
+     .our-preferences-cardBox .card:nth-child(4),
+     .our-preferences-cardBox .card:nth-child(5){
+          margin: 0;
+     }
+     .our-preferences .title{
+          text-align: center;
+     }
+}
+@media only screen and (max-width: 850px){
+     .our-preferences{
+          height: auto;
+          padding: 50px 10px;
+     }
+     .our-preferences-cardBox .card{
+          width: 280px;
+     }
+     .our-preferences-cardBox .card-box_l  img{
+          display: none;
+     }
+     .our-preferences-cardBox {
+          align-items: center;
+          text-align: center;
+     }
+     .our-preferences-cardBox .card .card-box_r{
+          width: auto;
+     }
+     .our-preferences-cardBox  .card-box_r .line{
+         margin-top: 5px;
+         width: 100%;
+     }
+}
+@media only screen and (max-width: 425px){
+     .our-preferences .title{
+          font-size: 27px;
+     }
+     .our-preferences-cardBox .card-box_r .card-content p {
+          font-size: 15px;
+     }
+}

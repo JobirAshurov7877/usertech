@@ -3,7 +3,7 @@ import ServicesCards from './ServicesCards'
 
 const HomeServices = () => {
   return (
-    <div className='services'>
+    <div className='home-services'>
       <div className="services-container">
         <ServicesCards category={'Сложные веб-сервисы'} title={'Владеем опытом создания сложных веб-проектов:'}
          path={'/'} body={["Образовательные онлайн школы ", "Онлайн аукционы (товары, автомобили)","Маркетплэйсы и финансовая платформа " ," Платформа B2B","Любые нестандартные решения"]}

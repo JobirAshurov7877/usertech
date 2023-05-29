@@ -1,0 +1,86 @@
+.algoritm-job {
+     padding: 20px;
+}
+
+.algoritm-job .title {
+     font-size: 60px;
+     text-align: center;
+     padding: 50px 0;
+}
+
+.algoritm-job .description p,
+.algoritm-job .description ul li,
+.algoritm-job .description ol li {
+     margin: 0 0 20px;
+     font-size: 18px;
+     font-family: var(--secondary-font-Roboto);
+     font-weight: 500;
+     line-height: 28px;
+     letter-spacing: .5px;
+     word-spacing: 2px;
+     color: #7a7a7a;
+}
+
+.algoritm-job .description ul li,
+.algoritm-job .description ol li {
+     margin-left: 50px;
+}
+
+.algoritm-job .description h3 {
+     font-size: 32px;
+     margin: 0 0 20px;
+}
+
+.algoritm-job .description h4 {
+     font-size: var(--md-font-size);
+     margin: 0 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+     .algoritm-job .title {
+          font-size: 35px;
+     }
+
+     .algoritm-job .description p,
+     .algoritm-job .description ul li,
+     .algoritm-job .description ol li {
+          font-size: 15px;
+          line-height: 25px;
+
+     }
+
+     .algoritm-job .description h3 {
+          font-size: 25px;
+          margin: 0 0 20px;
+     }
+}
+
+@media only screen and (max-width: 425px) {
+     .algoritm-job .title {
+          font-size: 25px;
+     }
+
+     .algoritm-job .description p,
+     .algoritm-job .description ul li,
+     .algoritm-job .description ol li {
+          font-size: 15px;
+          line-height: 22px;
+          margin-bottom: 15px;
+
+     }
+
+     .algoritm-job .description h3 {
+          font-size: var(--md-font-size);
+          margin: 0 0 15px;
+          text-align: center;
+     }
+
+     .algoritm-job .description ul li,
+     .algoritm-job .description ol li {
+          margin-left: 20px;
+     }
+     .algoritm-job .description h4 {
+          font-size: var(--sm-font-size);
+          text-align: center;
+     }
+}

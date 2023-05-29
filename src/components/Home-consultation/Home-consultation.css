@@ -1,0 +1,89 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultation {
+  width: 100%;
+  color: #fff;
+}
+
+.consultation-wrap {
+  display: flex;
+}
+
+.consultation-form_l {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    #071927 0%,
+    #045eb0 0.01%,
+    #03101c 122.33%
+  );
+  padding: 45px 0;
+  padding-left: 195px;
+}
+
+.consultation-form_l .box {
+  width: 425px;
+}
+
+.consultation .form-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.consultation .form-head p {
+  font-weight: 500;
+  font-size: var(--md-font-size);
+}
+
+.consultation  p {
+  margin-top: 30px;
+}
+
+.consultation .form-body input {
+  height: 51px;
+}
+.consultation .form-body textarea,
+.consultation .form-body input {
+  padding: 16px 20px;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  background: #ffffff;
+  font-size: var(--sm-font-size);
+  color: #8e8e8e;
+  font-weight: 500;
+  width: 330px;
+  outline: none;
+}
+.consultation .form-body textarea {
+  resize: vertical;
+  height: 130px;
+}
+.consultation .form-body input[type="submit"] {
+  border: none;
+  background: #f08200;
+  color: #fff;
+}
+.consultation-slider_r{
+  height: 600px;
+  background-color: #f08200;
+}
+.consultation-slider_r .slider-wrapper{
+  height: 400px;
+}
+.thumbs.animated .thumb {
+  width: 180px;
+  height: 80px;
+}

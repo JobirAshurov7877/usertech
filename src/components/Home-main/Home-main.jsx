@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './Home-main.css'
 import gifRobot from '../../assets/images/Home-image/robot.gif'
+import  line_top  from '../../assets/images/Home-image/line_top.png'
+import  line_bottom  from '../../assets/images/Home-image/line-bottom.png'
 
 const HomeMain = () => {
   return (
@@ -21,6 +23,9 @@ const HomeMain = () => {
                </div>
           </div>
           <div className="main-widget">
+               <div className="line-top">
+                    <img src={line_top} alt="" />
+               </div>
                <div className="main-widget-box">
                     <div className="title">
                          <h3>1к+</h3>
@@ -60,6 +65,9 @@ const HomeMain = () => {
                          Успешных кейсов продвижений сайтов 
                          </p>
                     </div>
+               </div>
+               <div className="line-bottom">
+                    <img src={line_bottom} alt="" />
                </div>
           </div>
        </div>

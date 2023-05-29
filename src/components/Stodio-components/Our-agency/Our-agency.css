@@ -1,0 +1,68 @@
+.our-agency {
+     width: 100%;
+
+}
+
+.our-agency-text-wrapper {
+     width: 60% ;
+     margin: auto;
+     text-align: center;
+}
+
+.our-agency-text-wrapper .text-head {
+     display: flex;
+     align-items: center;
+     gap: 0 20px;
+     justify-content: center;
+}
+
+.our-agency-text-wrapper .text-head h4 {
+     font-size: 19px;
+     font-weight: 500;
+     font-family: var(--secondary-font-Roboto);
+}
+
+.our-agency-text-wrapper .title {
+     font-size: 60px;
+}
+
+.our-agency-text-wrapper p {
+     color: #7a7a7a;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 33px;
+     margin-top: 20px;
+     font-family: var(--secondary-font-Roboto);
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+     .our-agency-text-wrapper {
+          width: 100%;
+          padding: 0px 30px;
+     }
+     .our-agency-bottom-shape {
+          display: none;
+     }
+     .our-agency-text-wrapper .text-head{
+          gap: 0 5px;
+     }
+     .our-agency-text-wrapper .text-head h4 {
+          font-size: 12px;
+     }
+     
+     .our-agency-text-wrapper .title {
+          font-size: 25px;
+     }
+     
+     .our-agency-text-wrapper p {
+          font-size: 13px;
+          line-height: 22px;
+          margin-top: 10px;
+     }
+     .our-agency-text-wrapper .img-box img{
+          width: 25px;
+     }
+}

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Home-services.css'
+import { HiOutlineArrowRight } from 'react-icons/hi';
 
 const ServicesCards = ({category,title,body}) => {
      console.log(body)
@@ -15,7 +16,7 @@ const ServicesCards = ({category,title,body}) => {
           </ul>
       </div>
       <div className="services-card-path">
-          <Link>Подробнее</Link>
+          <Link>Подробнее <HiOutlineArrowRight /></Link>
       </div>
     </div>
   )

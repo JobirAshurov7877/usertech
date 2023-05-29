@@ -23,7 +23,16 @@
 }
 .navbar .nav-link-box .nav-menu{
      display: flex; 
+     transition: 0.3s;
+}
+
+.menu-bars{
+     margin: 0px auto;
      display: none;
+     cursor: pointer;
+}
+.menu-bars .toggle-icon{
+     font-size: 23px;
 }
 .nav-link-box .nav-menu .nav-link{
      padding: 15px;
@@ -36,16 +45,20 @@
      color: var(--dark-color);
      display: flex;
      align-items: center;
+     height: 25px;
+}
+.nav-menu .nav-link a:hover{
+     color: #969696;
 }
 .navbar .dropdown-icon{
      font-size: 25px;    
 }
 
-.navbar .language{
+ .language{
      display: flex;
      justify-content: space-between;
 }
-.navbar .language img{
+ .language img{
      width: 30px;
      margin: 2px;
      cursor: pointer;
@@ -57,6 +70,10 @@
     background-color: #F08200;
     border-radius: 20px ;
     padding: 3px 44px ;
+    transition: 0.2s;
+}
+.navbar .contact-btn:hover{
+     transform: scale(0.9);
 }
 .navbar .contact-btn a{
      color: #fff;
@@ -65,7 +82,7 @@
      position: absolute;
      display: flex;
      flex-direction: column;
-     margin-top: 70px;
+     margin-top: 50px;
      margin-left: 0px;
      width: 210px;
      -webkit-box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.1);
@@ -115,15 +132,22 @@
      }
 }
 @media only screen and (max-width: 500px){
+     
+     .menu-bars{
+          display: block;
+     }
      .navbar .nav-menu{
-          flex-direction: column;
+          flex-direction: column;   
+     }
+     .navbar .nav-link-box .nav-menu.hidden{
+          display: none;
      }
      .navbar .nav-link-box{
           width: 100%;
           position: absolute;
           z-index: 99;
           background-color: #fff;
-          margin-top: 50px;
+          margin-top: 100px;
           left: 0;
           top: 0;
           
@@ -149,5 +173,10 @@
      }
      .nav-menu .nav-link a{
           justify-content: space-between;
+     }
+     .language img{
+          width: 30px;
+          margin: 5px;
+          cursor: pointer;
      }
 }

@@ -1,2 +1,7 @@
 export {default as Home} from './Home/Home'
 export {default as Studio} from './Studio/Studio'
+export {default as AlgoritmJob} from './Algoritm-job/Algoritm-job'
+export {default as ServicesVacansyCard} from './Services-vacanvy-card/Services-vacansy-card'
+export {default as ContactPage} from './Contact-page/Contact-page'
+export {default as Blog} from './Blog/Blog'
+export {default as ServicesChildPage} from './Services-child-page/Services-child-page'

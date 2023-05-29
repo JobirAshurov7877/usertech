@@ -1,3 +1,8 @@
+.home-services .services{
+     background: url('../../assets/images/Home-image/services_bg.png');
+     background-size: cover;
+    
+}
 .services-container{
      max-width: 1140px;
      margin: 0px auto;
@@ -8,6 +13,7 @@
      display: grid;
      gap: 5rem 2rem;
      grid-template-columns: repeat(3, 1fr);
+     
 }
 .services-card{
      width: 330px;
@@ -15,6 +21,7 @@
      display: flex;
      flex-direction: column;
      justify-content: space-between;
+     
      /* border: 1px solid black; */
 }
 .services-card .card-header h3{
@@ -56,6 +63,9 @@
 .services-card-path a{
      color: #1A4A9F;
      font-size: 18px;
+     display: flex;
+     align-items: center;
+     gap: 0 5px;
 }
 .services-card-path a::before{
      position: absolute;

@@ -1,0 +1,37 @@
+.home-text-section{
+     width: 100%;
+     height: auto;
+     margin-top: 80px;
+     padding: 20px;
+}
+.home-text-section-element{
+     max-width: 1140px;
+     width: 100%;
+     margin: 0px auto;
+}
+.home-text-section p{
+     color: #7a7a7a;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 30px;
+}
+@media only screen and (max-width: 768px){
+     .home-text-section p{
+          font-size: 15px;
+          line-height: 25px;
+         
+     }
+}
+@media only screen and (max-width: 425px){
+     .home-text-section{
+          width: 100%;
+          height: auto;
+          margin-top: 20px;
+          padding: 10px;
+     }
+     .home-text-section p{
+          font-size: 13px;
+          line-height: 25px;
+         
+     }
+}

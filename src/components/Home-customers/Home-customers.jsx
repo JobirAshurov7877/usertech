@@ -1,7 +1,51 @@
 import './Home-customers.css'
 import gifRobot from '../../assets/images/Home-image/robot.gif'
 import { Link } from 'react-router-dom'
+import HomeCustomersCard from './Home-customers-card'
 const HomeCustomers = () => {
+     const cardData = [
+          {
+               title:"Комплексное продвижение",
+               path:"/",
+               body:[
+                    "SEO-продвижение",
+                    "Содержание",
+                    "SERM",
+                    "Реклама в Яндекс.Директ",
+                    "Геомаркетинг, продвижение в контекстном поиске",
+                    "SMM – продвижение соц.сетей",
+                    "Настройка таргетированной рекламы для SMM",
+                    "UX, улучшение конверсии сайта"
+               ]
+          },
+          {
+               title:"Yandex direct",
+               path:"/",
+               body:[
+                    "Настройка через Яндекс.Бизнес",
+                    "Настройка через Яндекс.Директ",
+                    "Подборка активных слов",
+                    "Кампании на картах",
+                    "Подборка изображений для РСЯ",
+                    "Брендированная видеореклама",
+                    "Смарт-баннеры",
+                    "Настройка систем аналитики и отслеживание целей"
+               ]
+          },
+          {
+               title:"SMM/Таргет",
+               path:"/",
+               body:[
+                    "Настройка через Mytarget",
+                    "Настройка через ВК/FB/instagram",
+                    "Персональная настройка под бизнес.",
+                    "Создание сообществ",
+                    "Подбор аудиторий, креативы, тексты объявлений",
+                    "Размещение объявлений",
+                    "Отслеживание эффективности кампании",
+               ]
+          },
+     ]
   return (
     <div className='customers'>
      <div className="customers-wrap">
@@ -35,60 +79,25 @@ const HomeCustomers = () => {
           </div>
      </div>
      </div>
+     <div className="card-wrap">
+          {cardData.map((item,i)=>(
+               <div key={i} className='home-customers-card'>
+               <div className="customers-card-head">
+                    <h3 className='title'>{item.title}</h3>
+                    <ul>
+                        {
+                         item.body.map((item,i)=>(
+                              <li key={i}>{item}</li>
+                         ))
+                        }
+                    </ul>
+               </div>
+               <div className="customers-card-btn">
+                    <Link to={item.path}>Подробнее</Link>
+               </div>
 
-     <div className="customers-card">
-               <div className="customers-card-head">
-                    <h3 className='title'>Комплексное продвижение</h3>
-                    <ul>
-                         <li>SEO-продвижение</li>
-                         <li>Содержание</li>
-                         <li>SERM</li>
-                         <li>Реклама в Яндекс.Директ</li>
-                         <li> Геомаркетинг, продвижение в контекстном поиске</li>
-                         <li>SMM – продвижение соц.сетей</li>
-                         <li> Настройка таргетированной рекламы для SMM</li>
-                         <li>UX, улучшение конверсии сайта</li>
-                    </ul>
-               </div>
-               <div className="customers-card-btn">
-                    <Link>Подробнее</Link>
-               </div>
-     </div>
-     <div className="customers-card">
-               <div className="customers-card-head">
-                    <h3 className='title'>Комплексное продвижение</h3>
-                    <ul>
-                         <li>SEO-продвижение</li>
-                         <li>Содержание</li>
-                         <li>SERM</li>
-                         <li>Реклама в Яндекс.Директ</li>
-                         <li> Геомаркетинг, продвижение в контекстном поиске</li>
-                         <li>SMM – продвижение соц.сетей</li>
-                         <li> Настройка таргетированной рекламы для SMM</li>
-                         <li>UX, улучшение конверсии сайта</li>
-                    </ul>
-               </div>
-               <div className="customers-card-btn">
-                    <Link>Подробнее</Link>
-               </div>
-     </div>
-     <div className="customers-card">
-               <div className="customers-card-head">
-                    <h3 className='title'>Комплексное продвижение</h3>
-                    <ul>
-                         <li>SEO-продвижение</li>
-                         <li>Содержание</li>
-                         <li>SERM</li>
-                         <li>Реклама в Яндекс.Директ</li>
-                         <li> Геомаркетинг, продвижение в контекстном поиске</li>
-                         <li>SMM – продвижение соц.сетей</li>
-                         <li> Настройка таргетированной рекламы для SMM</li>
-                         <li>UX, улучшение конверсии сайта</li>
-                    </ul>
-               </div>
-               <div className="customers-card-btn">
-                    <Link>Подробнее</Link>
-               </div>
+    </div>
+          ))}
      </div>
     </div>
   )

@@ -1,0 +1,95 @@
+.studio-services{
+     width: 100%;
+     height: auto;
+     color: #fff;
+}
+.studio-services-wrapper{
+     width: 100%;
+     height: auto;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 67%, rgba(0, 0, 0, 0.91) 100%), url('../../../assets/images/Studio-image/studio-img.gif') no-repeat center, #000000;
+     background-size: cover;
+     padding: 150px 45px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     row-gap: 30px;
+     
+     
+}
+.studio-services-card{
+     width: 320px;
+     min-height: 400px;
+}
+
+.studio-services-card .card-head{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.studio-services-card .card-head-box {
+     height: 127px;
+     width: 127px;
+     background: rgba(0, 85, 255, 0.2);
+     border-radius: 32px;
+     margin: auto;
+     display: grid;
+     place-items: center;
+}
+.studio-services-card:nth-child(2) .card-head-box{
+     background: rgba(244, 91, 31, 0.2);
+}
+.studio-services-card:nth-child(3) .card-head-box{
+     background: rgba(61, 205, 92, 0.2);
+}
+.studio-services-card:nth-child(4) .card-head-box{
+     background: rgba(255, 166, 0, 0.2);
+}
+.studio-services-card:nth-child(5) .card-head-box{
+     background: rgba(31, 184, 244, 0.2);
+}
+.studio-services-card .card-head-box img{
+     width: 37px;
+}
+.studio-services-card .card-body-title{
+     font-size: var( --md-font-size);
+     margin-top: 50px;
+     
+}
+.studio-services-card .card-body-description{
+     font-size: 18px;
+     text-align: center;
+     font-weight: 500;
+     padding: 7px;
+     line-height: 28px;
+     margin-top: 15px;
+     font-family: var(--secondary-font-Roboto);
+}
+@media only screen and (max-width: 425px){
+     .studio-services-wrapper{
+          padding: 40px;
+     }
+     .studio-services-card{
+          min-height: 300px;
+     }
+     .studio-services-card .card-body-title{
+          text-align: center;
+          margin-top: 15px;
+          
+     }
+     .studio-services-card .card-head-box {
+          height: 100px;
+          width: 100px;
+          border-radius: 17px;
+     }
+     .studio-services-card .card-head-box img{
+          width: 30px;
+     }
+     .studio-services-card .card-body-description{
+          font-size: 14px;
+          padding: 0px;
+          line-height: 23px;
+          margin-top: 10px;
+     }
+
+}
