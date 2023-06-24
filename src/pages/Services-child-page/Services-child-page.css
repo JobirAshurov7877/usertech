@@ -5,6 +5,7 @@
   color: #fff;
   width: 100%;
   padding: 80px 10px;
+  min-height: 600px;
 }
 .services-child-page-head-box {
   display: flex;

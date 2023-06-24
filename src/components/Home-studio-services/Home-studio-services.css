@@ -1,0 +1,243 @@
+.home-studio-services {
+  padding: 80px 0px;
+}
+.home-studio-services-wrapp {
+  background: #ececec;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.home-studio-services .banner {
+  min-height: 450px;
+  width: 100%;
+  display: flex;
+}
+.home-studio-services .banner .box {
+  flex: 1;
+  padding: 25px 30px;
+  overflow: hidden;
+}
+.box__title {
+  border-left: 2px solid blue;
+  padding: 0 5px;
+}
+.home-studio-services .box__1 .box__title a {
+  color: #1a4a9f;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.home-studio-services .box__1 .box__content {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.home-studio-services .box__1 .box__content p {
+  font-weight: 500;
+  line-height: 150%;
+}
+.home-studio-services .box__1 .box__content ul {
+  padding-left: 20px;
+  line-height: 150%;
+}
+
+/* Banner 1 Box-1 */
+.home-studio-services .complex-web-services .box:nth-child(2) {
+  background: #055aa9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.home-studio-services .complex-web-services .box:nth-child(2) img,
+.home-studio-services .complex-web-services .box:nth-child(4) img {
+  width: 140px;
+  height: 140px;
+}
+.home-studio-services .complex-web-services .box:nth-child(2) p,
+.home-studio-services .complex-web-services .box:nth-child(4) p {
+  color: #fff;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* Banner 1 Box-2 */
+.home-studio-services .complex-web-services .box:nth-child(3) img {
+  width: 360px;
+  height: 360px;
+}
+
+/* Banner 1 Box-4 */
+.home-studio-services .complex-web-services .box:nth-child(4) {
+  background: #ff9e2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+/* Banner 2  */
+.home-studio-services .online-shopping .box:nth-child(1) {
+  flex: 2.28;
+}
+.home-studio-services .online-shopping .box:nth-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #055aa9;
+  color: #fff;
+}
+.home-studio-services .online-shopping .box:nth-child(2) img {
+  width: 210px;
+  height: 210px;
+}
+.home-studio-services .online-shopping .box:nth-child(3) img {
+  width: 300px;
+  height: 300px;
+  margin-left: -100px;
+  margin-top: 20px;
+}
+
+/* Banner3  */
+.home-studio-services .corporate-website .box:nth-child(2) {
+  background: #ffb966;
+  color: #fff;
+}
+.home-studio-services .corporate-website .box:nth-child(3) img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  transform: translateX(-150px);
+}
+.home-studio-services .corporate-website .box:nth-child(4) {
+  background: #69aae6;
+  color: #fff;
+}
+
+/* Banner 4 */
+.home-studio-services .turnkey-landing .box:nth-child(1) {
+  flex: 2.28;
+}
+.home-studio-services .turnkey-landing .box:nth-child(2) {
+  background: #0e8bff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-studio-services .turnkey-landing .box:nth-child(2) img {
+  width: 200px;
+  height: 200px;
+}
+.home-studio-services .turnkey-landing .box:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-studio-services .turnkey-landing .box:nth-child(3) img {
+  width: 250px;
+  height: 250px;
+}
+
+/* Banner-5 */
+.home-studio-services .applications .box:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-studio-services .applications .box:nth-child(2) img {
+  width: 270px;
+  height: 370px;
+}
+.home-studio-services .applications .box:nth-child(3) {
+  background: #ff8a00;
+  color: #fff;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-studio-services .applications .box:nth-child(3) img {
+  width: 250px;
+  height: 345px;
+}
+.home-studio-services .applications .box:nth-child(4) {
+  background: #0059ac;
+  color: #fff;
+}
+.home-studio-services .applications .box:nth-child(4) .app-store {
+  width: 120px;
+  height: 125px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.home-studio-services .applications .box:nth-child(4) .play-market {
+  width: 140px;
+  height: 125px;
+}
+
+/* Banner 6 */
+.home-studio-services .cms .box:nth-child(1) {
+  flex: 2.28;
+}
+.home-studio-services .cms .bitrix_image {
+  background: url("../../assets/images/Home-image/banner6_circle.png") no-repeat
+    center;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-studio-services .cms .bitrix_image img {
+  width: 250px;
+  height: 50px;
+}
+.home-studio-services .cms .box:nth-child(3) {
+  background: #4575a2;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-studio-services .cms .box:nth-child(3) img {
+  width: 210px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .home-studio-services .complex-web-services .box:nth-child(3),
+  .home-studio-services .online-shopping .box:nth-child(3),
+  .home-studio-services .corporate-website .box:nth-child(3),
+  .home-studio-services .turnkey-landing .box:nth-child(3),
+  .home-studio-services .applications .box:nth-child(2),
+  .home-studio-services .cms .box:nth-child(2) {
+    display: none;
+  }
+
+  .home-studio-services .complex-web-services .box:nth-child(2) img,
+  .home-studio-services .complex-web-services .box:nth-child(4) img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-studio-services .box {
+    flex: 1;
+  }
+  .home-studio-services .complex-web-services .box:nth-child(2),
+  .home-studio-services .complex-web-services .box:nth-child(4),
+  .home-studio-services .online-shopping .box:nth-child(2),
+  .home-studio-services .corporate-website .box:nth-child(2),
+  .home-studio-services .corporate-website .box:nth-child(4),
+  .home-studio-services .turnkey-landing .box:nth-child(2),
+  .home-studio-services .applications .box:nth-child(3),
+  .home-studio-services .applications .box:nth-child(4),
+  .home-studio-services .cms .box:nth-child(3) {
+    display: none;
+  }
+}

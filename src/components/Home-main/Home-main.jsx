@@ -3,19 +3,22 @@ import './Home-main.css'
 import gifRobot from '../../assets/images/Home-image/robot.gif'
 import  line_top  from '../../assets/images/Home-image/line_top.png'
 import  line_bottom  from '../../assets/images/Home-image/line-bottom.png'
-
+import { useTranslation } from 'react-i18next'
+ 
 const HomeMain = () => {
+     const {t} = useTranslation()
+
   return (
     <div className='home-main'>
        <div className="main-element">
           <div className="element-container">
                <div className="main-text-box">
                     <div className="text-box-header">
-                         <h1>Сайт для вашего бизнеса под ключ</h1>
-                         <p>МЫ АГЕНСТВО ПОЛНОГО ЦИКЛА для IT продуктов. Создаем простые решения для сложных задач вашего проекта. Разработаем IT продукт, настроим рекламу и построем из этого стабильную систему по привлечению клиентов</p>
+                         <h1>{t("Home.Home-main.title")}</h1>
+                         <p>{t("Home.Home-main.description")}</p>
                     </div>
                     <div className="text-box-button">
-                         <Link to={'/'}> Узнать подробнее</Link>
+                         <Link to={'/services'}>{t("Home.Home-main.btn")}</Link>
                     </div>
                </div>
                <div className="main-image-box">
@@ -28,44 +31,47 @@ const HomeMain = () => {
                </div>
                <div className="main-widget-box">
                     <div className="title">
-                         <h3>1к+</h3>
+                         <h3>{t("Home.Home-main.main-bottom-card.0.title")}</h3>
                     </div>
                     <div className="desc">
                          <p>
-                            Успешных проектов успели реализовать за все время
+                         {t("Home.Home-main.main-bottom-card.0.desc")}
                          </p>
                     </div>
                </div>
                <div className="main-widget-box">
                     <div className="title">
-                         <h3>более 13 лет</h3>
+                         <h3>{t("Home.Home-main.main-bottom-card.1.title")}</h3>
                     </div>
                     <div className="desc">
                          <p>
-                         опыта разработки сервисов любой сложности
+                         {t("Home.Home-main.main-bottom-card.1.desc")}
                          </p>
                     </div>
                </div>
                <div className="main-widget-box">
                     <div className="title">
-                         <h3>более 200</h3>
+                         <h3>{t("Home.Home-main.main-bottom-card.2.title")}</h3>
                     </div>
                     <div className="desc">
                          <p>
-                            постоянных клиентов
+                         {t("Home.Home-main.main-bottom-card.2.desc")}
                          </p>
                     </div>
                </div>
                <div className="main-widget-box">
                     <div className="title">
-                         <h3>100+</h3>
+                         <h3>{t("Home.Home-main.main-bottom-card.3.title")}</h3>
                     </div>
                     <div className="desc">
                          <p>
-                         Успешных кейсов продвижений сайтов 
+                         {t("Home.Home-main.main-bottom-card.3.desc")}
                          </p>
                     </div>
                </div>
+             
+               
+               
                <div className="line-bottom">
                     <img src={line_bottom} alt="" />
                </div>

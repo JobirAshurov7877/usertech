@@ -51,6 +51,14 @@
 .consultation  p {
   margin-top: 30px;
 }
+.consultation  .description {
+  font-size: 12px;
+  text-align: center;
+  max-width: 330px;
+  padding: 0px 20px;
+  width: 100%;
+ 
+}
 
 .consultation .form-body input {
   height: 51px;
@@ -77,13 +85,94 @@
   color: #fff;
 }
 .consultation-slider_r{
-  height: 600px;
-  background-color: #f08200;
+  height: auto;
+  width: 70%;
 }
 .consultation-slider_r .slider-wrapper{
-  height: 400px;
+  height: 450px;
+}
+.consultation-slider_r .slider-wrapper iframe{
+  margin-top: 50px;
+}
+.thumbs.animated{
+  display: flex; 
+  justify-content: center; 
 }
 .thumbs.animated .thumb {
-  width: 180px;
+  min-width: 110px;
   height: 80px;
+  margin: 0px 5px;
+  border-radius: 7px;
+}
+.thumbs.animated .thumb.selected {
+
+  border: 2px solid rgb(0, 149, 255);
+}
+.thumbs.animated .thumb img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.carousel.carousel-slider img{
+  display: none;
+}
+.control-dots{
+  display: none;
+}
+.carousel .control-prev.control-arrow:before{
+  border-right: 8px solid #000000;
+}
+.carousel .control-next.control-arrow:before{
+  border-left: 8px solid #000000;
+}
+@media only screen and (max-width: 1270px){
+  .consultation-wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+  .consultation-slider_r{
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+  }
+  .consultation-form_l{
+    padding-left: 0;
+  }
+  .consultation-form_l .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 850px){
+  .consultation-slider_r{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+  }
+  .consultation-form_l{
+    width: 100%;
+  }
+  .thumbs.animated .thumb {
+    min-width: 80px;
+    height: 50px;
+    margin: 0px 5px;
+  }
+}
+@media only screen and (max-width: 480px){
+  .thumbs-wrapper{
+    display: none;
+  }
+ 
+
+.carousel.carousel-slider .control-arrow{
+  padding: 0;
+}
+.consultation .form-body input,
+.consultation .form-body textarea{
+  width: 300px;
+}
+
 }

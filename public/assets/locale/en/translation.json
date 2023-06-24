@@ -1,0 +1,484 @@
+{
+  "navbar": {
+    "home": "Home",
+    "studio": "Studio",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contacts",
+    "jobs": "Jobs",
+
+    "work_algorithm": "Work algorithm"
+  },
+
+  "Home": {
+    "Home-main": {
+      "title": "Website for your turnkey business",
+
+      "description": "WE ARE A FULL CYCLE AGENCY for IT products. We create simple solutions for complex tasks of your project. We will develop an IT product, set up advertising and build a stable system for attracting customers from this",
+
+      "btn": "Learn more",
+
+      "main-bottom-card": [
+        {
+          "title": "1k+",
+          "desc": "Successful projects managed to be implemented all the time"
+        },
+        {
+          "title": "over 13 years",
+          "desc": "experience in developing services of any complexity"
+        },
+        {
+          "title": "over 200",
+          "desc": "regular customers"
+        },
+        {
+          "title": "100+",
+          "desc": "Successful cases of website promotion"
+        }
+      ]
+    }
+  },
+
+  "Partner": {
+    "title1": "How can we be useful to you?",
+    "title2": "Our clients pay for services already in the first month of work",
+    "title3": "We develop web and mobile applications, conduct effective marketing campaigns. How to understand all the variety of services and understand what kind of set you need? Let's start with concept development!",
+    "title4": "customers who ordered services and did not implement our recommendations",
+    "widgets": [
+      "Application Development",
+      "Influence Marketing",
+      "Cryptocurrencies and blockchain",
+      "PR and media",
+      "Web3 and DeFi platforms",
+      "Community Management"
+    ]
+  },
+
+  "homePopularIndustries_title": {
+    "title": "Popular Industries",
+    "text_1": "Our studio specializes in developing websites for various industries that are popular and in demand in Russia.",
+    "text_2": "We understand the importance of having an online presence, so we are happy to help you create an attractive and functional website for your business."
+  },
+
+  "home-studio-services": {
+    "card1": {
+      "title": "Complex web services",
+      "title_ul": "We have experience in creating complex web projects:",
+      "sub_title_li": [
+        "Educational online schools",
+        "Online auctions (goods, cars)",
+        "Marketplaces and financial platform",
+        "B2B platform",
+        "Any non-standard solutions"
+      ]
+    },
+    "card2": {
+      "title": "The company has on its asset projects that have been launched for more than 5 years and are successfully operating in the market."
+    },
+    "card3": {
+      "title": "The task of the team is not only to develop a product, but also to correctly test and optimize its operation so that users get the maximum pleasure from using the web service."
+    },
+    "card4": {
+      "title": "Online shopping",
+      "title_ul": "Creation of a turnkey online store :",
+      "sub_title_li": [
+        "Selling structure",
+        "Easy product and order management",
+        "Any kind of integration",
+        "Individual functionality",
+        "Free tech. support"
+      ]
+    },
+    "card5": {
+      "title": "We will develop a unique design that will emphasize the individuality of your brand and help attract more customers."
+    },
+    "card6": {
+      "title": "Corporate website",
+      "title_ul": "Creation of a corporate website for a company:",
+      "sub_title_li": [
+        "Let's create a memorable website (not like everyone else)",
+        "We form the face of the company on the Internet, for any business area",
+        "Increase online sales of the company",
+        "We will create any functionality"
+      ]
+    },
+    "card7": {
+      "title": "Any functionality"
+    },
+    "card8": {
+      "title": "We use modern technologies and approaches to create websites that will meet the requirements and expectations of customers."
+    },
+    "card9": {
+      "title": "Turnkey landing",
+      "title_ul": "Creation of Landing, business card site:",
+      "sub_title_li": [
+        "for start-up companies or one service;",
+        "with a selling design and a rate of choice attraction;",
+        "targeting a precise and specific audience;",
+        "technical support after launch.",
+        "Site domain as a gift."
+      ]
+    },
+    "card10": {
+      "title": "Development: from 7-14 days"
+    },
+    "card11": {
+      "title": "Applications",
+      "title_ul": "Mobile Application Development:",
+      "sub_title_li": [
+        "iOS/Android applications.",
+        "Publication in AppStore/PlayMarket.",
+        "Applications for business.",
+        "We will conduct analytics + draw up technical specifications.",
+        "Turnkey development on modern technologies.",
+        "UX/UI design."
+      ]
+    },
+    "card12": {
+      "title": "Project support 24/7"
+    },
+    "card13": {
+      "title": "Публикация в AppStore/PlayMarket."
+    },
+    "card14": {
+      "title": "CMS",
+      "sub_title_li": [
+        "Creation of sites on popular engines",
+        "Writing your own CMS platform",
+        "Consultation and selection of CMS for your project",
+        "Ease of use",
+        "Safety",
+        "Setting up and testing"
+      ]
+    },
+    "card15": {
+      "title": "Consultation and selection of CMS for your project"
+    }
+  },
+
+  "bottom-sticky-section": [
+    "Services",
+    "Leave a request for a project",
+    "Contacts"
+  ],
+  "Carousel": {
+    "card1": {
+      "title": "Quick Business Launch Landing Page",
+      "price": "Starting from 25,000₽",
+      "li1": "High conversion rate",
+      "li2": "SEO optimization",
+      "li3": "User-friendly",
+      "li4": "Easy to test"
+    },
+    "card2": {
+      "title": "Your Own Online Store - E-commerce",
+      "price": "Starting from 70,000₽",
+      "li1": "Wide audience reach",
+      "li2": "Convenience for customers",
+      "li3": "Efficient logistics",
+      "li4": "Real-time operation"
+    },
+    "card3": {
+      "title": "Develop Your Own Yandex Taxi Mobile Applications",
+      "price": "Starting from 150,000₽",
+      "li1": "Wide audience reach",
+      "li2": "Convenience for customers",
+      "li3": "Fast access",
+      "li4": "Functionality"
+    },
+    "card4": {
+      "title": "From Idea to First Profit Comprehensive Promotion",
+      "price": "Starting from 30,000₽",
+      "li1": "Wide audience reach",
+      "li2": "Target audience",
+      "li3": "Effectiveness",
+      "li4": "Convenient communication"
+    },
+    "card5": {
+      "title": "Yandex Direct Setup for Your Business",
+      "price": "Starting from 15,000₽",
+      "li1": "Precise targeting",
+      "li2": "Wide audience reach",
+      "li3": "Result tracking"
+    }
+  },
+
+  "customers-wrap": {
+    "left": {
+      "title1": "We have created an IT product, what's next?",
+      "title2": "We help clients in the following situations:"
+    },
+    "right": {
+      "card1": {
+        "title": "Never attracted clients from the Internet",
+        "li1": "Never had a website",
+        "li2": "They didn’t know what contextual advertising, SEO promotion is, and how you can fully load the sales department from this",
+        "li3": "Didn't know that you can get customers from the Internet",
+        "li4": "They did not know such terms as CTR, CPC, CPA, ROMI, DRR and what is important to know about online promotion"
+      },
+      "card2": {
+        "title": "There was a website and advertising on the Internet, but did not get the desired result",
+        "li1": "We launched advertising in Yandex and Google, but it did not give a result and worked in the red",
+        "li2": "We spent 50 thousand rubles. on a site that was made for 6 months and in the end did not pay off",
+        "li3": "Changed 3-5 contractors for contextual advertising and did not achieve the desired performance",
+        "li4": "Advertised and didn't grow in profit",
+        "li5": "Competitors website or advertising worked better"
+      }
+    }
+  },
+
+  "home-customers-card": {
+    "card1": {
+      "title": "Integrated promotion",
+      "li1": "SEO promotion",
+      "li2": "Content",
+      "li3": "SERM",
+      "li4": "Advertising in Yandex.Direct",
+      "li5": "Geomarketing, promotion in contextual search",
+      "li6": "SMM - promotion of social networks",
+      "li7": "Setting up targeted advertising for SMM",
+      "li8": "UX, website conversion improvement"
+    },
+    "card2": {
+      "title": "Yandex direct",
+      "li1": "Setting up via Yandex.Business",
+      "li2": "Setting up via Yandex.Direct",
+      "li3": "Selection of active words",
+      "li4": "Campaigns on maps",
+      "li5": "Selection of images for YAN",
+      "li6": "Branded video ads",
+      "li7": "Smart banners",
+      "li8": "Setting up analytics systems and tracking goals"
+    },
+    "card3": {
+      "title": "SMM/Target",
+      "li1": "Configuration via Mytarget",
+      "li2": "Setting up via VK/FB/Instagram",
+      "li3": "Personal customization for business.",
+      "li4": "Building communities",
+      "li5": "Audience selection, creatives, ad texts",
+      "li6": "Posting ads",
+      "li7": "Campaign Performance Tracking"
+    },
+    "button_title": "More"
+  },
+
+  "resources-PR": {
+    "resources-PR-element": {
+      "title": "Get direct access to the best PR resources",
+      "subtitle_1": "Press",
+      "subtitle_2": "YouTube resources"
+    },
+    "stagesProject": {
+      "title": "Stages of development of your project",
+      "box_1": {
+        "title": "Stage 1",
+        "desc": "We study your TOR or help you draw it up. We analyze the group in the middle segment. Determine the target audience of the site."
+      },
+      "box_2": {
+        "title": "Stage 2",
+        "desc": "Development of the structure and design of the site in online mode. Drawing by designers of adaptive versions of the site. Coordination of the design layout with the customer."
+      },
+      "box_3": {
+        "title": "Stage 3",
+        "desc": "Design layout layouts with SEO in mind. Adaptation of layout for all platforms. Layout testing. Coordination with the customer."
+      },
+      "box_4": {
+        "title": "Stage 4",
+        "desc": "Stretch layout on the CMS system. Website programming and functionality creation. setting up and testing the functionality of the site."
+      },
+      "box_5": {
+        "title": "Stage 5",
+        "desc": "Filling the site with content. Basic SEO site optimization. Site hosting."
+      },
+      "box_6": {
+        "title": "Stage 6",
+        "desc": "Site support. Launching and maintaining advertising to attract customers."
+      }
+    }
+  },
+
+  "our-preferences": {
+    "title": "Our Advantages",
+    "card_1_text": "We provide flexible conditions for adaptation and overall interaction",
+    "card_2_text": "We know how to listen to the client and find common ground",
+    "card_3_text": "We keep the client informed about the project status at all stages of work",
+    "card_4_text": "We conduct thorough testing of all code after development",
+    "card_5_text": "If necessary, we take on projects for ongoing support"
+  },
+
+  "home-form": {
+    "title": "Leave a project request",
+    "input_name": "Full Name",
+    "input_phone": "Phone",
+    "submit_btn": "Submit Project Request",
+    "description": "*by submitting forms on this website, you consent to the processing of personal data"
+  },
+
+  "our-studio": {
+    "title": "How our studio works",
+    "text": "We select a solution for the client. <br/> <br/> We will communicate with you and offer a solution that will give the maximum result in the near future. Not every business is suitable for SEO or needs a multi-page website or web application."
+  },
+
+  "our-suggestions": {
+    "title": "Let's be honest with you",
+    "box_1": {
+      "title": "We will not make a bad site",
+      "content": "Under the offer: for 7 days for 19900 rubles"
+    },
+    "box_2": {
+      "title": "We will not sell for you on request",
+      "content": "We are building a system, and calling back on request is already on your shoulders"
+    },
+    "box_3": {
+      "title": "We do not make template sites in 1 day",
+      "content": "We create an author's product from scratch for you"
+    },
+    "box_4": {
+      "title": "If the price is important to you, not the result",
+      "content": "You better look for developers elsewhere"
+    },
+    "box_5": {
+      "title": "We make a product that brings you profit",
+      "content": "It should be liked not by you, but by visitors, converting them into leads and sales"
+    },
+    "box_6": {
+      "title": "We don't need to raise the check because of useless ratings",
+      "content": "We do not pursue yellow press awards, but work for the result"
+    }
+  },
+  "consultation": {
+    "title": "To get a consultation",
+    "text": "Leave a request and we will contact you shortly",
+    "input_name": "your name",
+    "input_phone": "Your phone number",
+    "input_questions": "Your question",
+    "input_submit": "To get a consultation",
+    "description": "By clicking the button, you consent to the processing of personal data"
+  },
+  "footer": {
+    "description": "We have been developing websites for Russia and foreign markets since 2010. Our team consists of more than fifty employees in different countries and cities.",
+    "address": "191119, St. Petersburg, Socialist 21",
+    "email": "e-mail: usertech78@ya.ru"
+  },
+
+  "Studio": {
+    "hello": "Hello!!! We are a digital agency of Usertech.",
+    "studio_our_agency_title": "About our agency",
+    "studio_our_agency": "Full cycle digital agency USERTECH is a Russian IT company, developers from Moscow and St. Petersburg. <br /> <br /> Our clients are companies from small and medium-sized businesses, as well as start-up projects from all over the world. Our team adapts to each client and creates comfortable conditions for remote cooperation with the ability to control the project online.<br /> <br /> Our top priority is strong and long-term cooperation based on the Win-Win concept. <br /> <br />When developing, the Usertech team uses modern technologies, thanks to which more than 100 successful projects have been implemented, including complex web services: educational platforms, B2B platforms, marketplaces, online auctions, financial platforms, as well as complex corporate sites. <br /> <br /> Philosophy <br /> <br /> A full-cycle digital agency Usertech business has developed its own philosophy of working with clients during the implementation of web projects. For us, the client is primarily our partner with whom we work together to achieve the goals set for the project. Therefore, we do not just analyze your niche, but literally dive into your business and begin to understand it the way you know it. Only in this case, truly selling sites and high-quality web services, digital platforms that bring real results are obtained. <br /> <br /> Our studio implements an open format of work with its clients during the implementation of the project. In real time, our customers see from the first day how our Designers create layouts of future sites and can take part in their creation without restrictions on edits. After laying out the layout, you get access to the site template, where you can already observe the programming, the so-called stretching the site to the content management system. Our task is the success of your business, we never abandon our customers and accompany each project after its completion and launch.",
+    "studio_services": {
+      "box_1": {
+        "title": "Web Development",
+        "desc": "By ordering a turnkey website from us, you will receive a powerful image and marketing tool. It will boost your sales and easily reach the top."
+      },
+      "box_2": {
+        "title": "Promotion",
+        "desc": "Website promotion involves a set of activities aimed at attracting targeted traffic from organic search engine results."
+      },
+      "box_3": {
+        "title": "Mobile Applications",
+        "desc": "We develop hybrid and native mobile applications for iOS, Android, Android Wear, watchOS, iPadOS, tvOS, and macOS platforms."
+      },
+      "box_4": {
+        "title": "Artificial Intelligence",
+        "desc": "We develop and configure machine learning for automating and optimizing business processes."
+      },
+      "box_5": {
+        "title": "Fintech",
+        "desc": "We develop financial web services for businesses or startup projects."
+      }
+    },
+
+    "studio_contact": {
+      "title": "We are a full cycle digital agency",
+      "content": "We are trusted with analytics, engineering, design and development of any level of complexity",
+      "button": "Have a project ? contact us"
+    }
+  },
+  "algoritm-job": {
+    "title": "Our Approach to Projects",
+    "p-1": "<p>Can you build a durable house without a project and drawings? Can you estimate the cost of its construction without an estimate? Of course not, you would say. Indeed, unless we're talking about a country cottage, nobody would think of building a house without drawings.</p><p>At the same time, clients of mobile and web application development often overlook such an important stage as planning. This leads to conflicts with developers, mismatched expectations, and, as a result, project failure, wasted money, and time.</p><p>Let us tell you how we manage to create great mobile and web applications.</p>",
+    "ul-1": "<li>Working with any order at UserTech starts with the development of a technical specification, which is a mandatory stage. The development of a technical specification takes approximately 100 working hours of the team.</li><li>In the created technical specification, we provide a cost and timeline calculation for the project and send it for approval. Once the client approves them, we start the development process.</li><li>The development is usually divided into 3-4 stages, with clear indicators of product readiness. Payments can also be divided into stages.</li><li>We work according to the Agile methodology with sprint durations of 1 week. Typically, within a week, there is an update of the working version of the product, which our clients can observe in real-time. The creation of the initial working version can take 3-4 sprints from the start.</li><li>Once the project is developed and delivered, we provide paid technical support and maintenance for an unlimited period of time.</li>",
+    "h3": "Technical Specification for Project Development",
+    "p-2": "Just as you cannot build a good house without a project and drawings, you cannot develop a good application without a detailed description. The project concept (also known as a technical specification or design document in mobile games) is what we start with when working with each client. Without a technical specification, it is impossible to accurately estimate the cost and timeline of the project.",
+    "h4-1": "What is a Technical Specification?",
+    "p-3": "A technical specification is a document that provides a detailed description of the future product from different perspectives: conceptual, usability, and use cases. In the created technical specification, our company's specialists often include screen diagrams of the future application, which facilitates understanding.",
+    "h4-2": "What tasks does a Technical Specification solve?",
+    "ul-2": "<li>The technical specification allows for detailed project planning, working out all the nuances that can significantly affect the cost and timeline. These are the aspects that interest the client the most.</li><li>It synchronizes the understanding of the project between the client and the developer. Often, this understanding can differ significantly and without a well-developed technical specification, it can lead to conflicts.</li><li>It defines ways to solve complex aspects of the project.</li>",
+    "p-4": "Our company provides technical specification development services performed by highly qualified specialists with experience in various fields. They can see optimal solutions where others cannot.",
+    "h4-3": "What does a Technical Specification consist of?",
+    "p-5": "Each technical specification has its own structure, but in general, the main sections can be outlined as follows:",
+    "ol": "<li>Project Description: A simple explanation of the product or service being developed, its purpose, and how it works.</li><li>Component Structure: The components that will be included in the product: backend, frontend, mobile; how they will interact with each other.</li><li>  Technological Stack: The programming languages to be used, technical requirements for the software.</li><li>Use Cases: Usage scenarios of the application by users. This section may also include screen maps and mock-ups of key screens.</li><li>Security and Fault Tolerance: How protection against hacking will be implemented, as well as resistance to load and scalability.</li>",
+    "p-6": "On average, a technical specification takes 20-40 A4 pages. At the end of it, our company's specialists provide a cost and timeline calculation for project completion.",
+    "h4-4": "How is a Technical Specification created?",
+    "p-7": "<p>UserTech assigns a project manager to the client, who engages in dialogue to clarify the details of the desired application and proposes various solutions. If necessary, they may involve more specialized experts in the development of the technical specification, not only from a technical but also from a legal perspective.</p><p>The document is prepared in Google Docs, and we immediately provide access to it. This way, the client can monitor the document's preparation in real-time, make corrections or suggestions.</p>"
+  }
+
+,
+  "Services": {
+    "title": "How can we help you?",
+    "content": "We develop web and mobile applications, conduct effective marketing campaigns. How to understand all the variety of services and understand what kind of set you need? Let's start with concept development!",
+    "button_card":"Learn more",
+    "services_contact": {
+      "title": "We are a full service IT company",
+      "content": "All the necessary information on the development and promotion of projects is on the site. If you did not find the answer to your question , just contact us .",
+      "button": "Have a project? Contact us"
+    }
+  },
+  "Services_detail": {
+    "title": "Website development services and prices",
+    "content": "You can choose both individual work to create a site, and complex packages, where we perform all the necessary work on a turnkey basis. If you do not know where to start - ask our specialist, it's free!",
+    "button": "More"
+  },
+  "Services_child_button":"submit your application",
+  "Blog":{
+    "h5":"Blog news usertech",
+    "button":"Read"
+  },
+  "Jobs": {
+    "title": "VACANCIES",
+    "content": "We are constantly looking for the best talents who are ready to improve their skills in the development of advanced technologies and share their experience..",
+    "button": "Detail"
+  },
+
+  "Contact": {
+    "title": "The numbers speak for themselves",
+    "desc": "Have project ideas?",
+    "card_title": "Contact us",
+    "card_1": {
+      "desc_1": "Only the most talented",
+      "desc_2": "work in our team"
+    },
+    "card_2": {
+      "desc_1": "We don't overcharge,",
+      "desc_2": "keeping track of hours"
+    },
+    "card_3": {
+      "desc_1": "We always do",
+      "desc_2": "as for yourself"
+    },
+    "form": {
+      "input_first_name": "Your name",
+      "input_last_name": "Your last name",
+      "input_phone": "Your phone number",
+      "input_email": "Email",
+
+      "input_price": "Project budget *",
+      "input_company": "Company name",
+
+      "input_checkbox_title": "How did you hear about us?",
+      "input_checkbox_1": "Friends or colleagues",
+      "input_checkbox_2": "Radio/TV",
+      "input_checkbox_3": "Social media",
+      "input_checkbox_4": "Other",
+
+      "input_text": "Write",
+      "input_text_placeholder": "Other",
+      "input_button": "Send request"
+    },
+    "map": {
+      "button": "Call",
+      "location": "Legal address: 191119, Saint Petersburg, Socialisticheskaya 21"
+      }
+  }
+}

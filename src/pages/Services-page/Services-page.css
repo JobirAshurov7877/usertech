@@ -1,0 +1,156 @@
+.services-page-head {
+  text-align: center;
+  padding: 50px 0;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+.services-page-head .title {
+  font-size: 32px;
+}
+.services-page-head p {
+  color: #7a7a7a;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.services-page-card {
+  width: 325px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 6px 0px #0000002c;
+  border-radius: 10px;
+  padding: 55px 45px;
+  text-align: center;
+  justify-content: space-between;
+}
+.services-page-card .card-head img {
+  width: 240px;
+  height: 240px;
+}
+.services-page-card .card-title {
+  font-size: 20px;
+}
+.services-page-card .card-content {
+  color: #7a7a7a;
+  line-height: 30px;
+  font-weight: 500;
+}
+.services-page-card .card_link {
+  color: #0256ff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.services-contact {
+  margin-top: 80px;
+}
+.services-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.services-contact-box-l {
+  width: 50%;
+}
+.services-contact-box-r {
+  width: 30%;
+}
+.services-contact-box-l img {
+  width: 100%;
+}
+.services-contact-box-r h3 {
+  font-size: 32px;
+}
+.services-contact-box-r p {
+  font-size: 18px;
+  color: #7a7a7a;
+  line-height: 30px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+.services-contact-box-r .contact-link {
+  display: block;
+  background: #f45c202a;
+  color: #f45c20;
+  margin-top: 50px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-weight: 18px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 900px) {
+  .services-contact-box-l,
+  .services-contact-box-r {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .services-contact-container {
+    flex-direction: column;
+  }
+  .services-contact-box-l img {
+    width: 70%;
+  }
+  .services-contact-box-r .contact-link {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .services-page-head .title {
+    font-size: 20px;
+  }
+  .services-page-head p {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+  .services-page-card {
+    width: 290px;
+    height: auto;
+    padding: 25px ;
+  }
+  .services-page-card .card-head img {
+    width: 150px;
+    height: 150px;
+  }
+  .services-page-card .card-title {
+    font-size: 16px;
+  }
+  .services-page-card .card-content {
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .services-page-card .card_link {
+    font-size: 15px;
+    margin: 20px auto;
+  }
+  .services-contact-box-l img {
+    width: 90%;
+  }
+  .services-contact-box-r h3 {
+    font-size: 20px;
+  }
+  .services-contact-box-r p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+  .services-contact-box-r .contact-link {
+  display: block;
+  background: #f45c202a;
+  color: #f45c20;
+  margin-top: 50px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ 
+}

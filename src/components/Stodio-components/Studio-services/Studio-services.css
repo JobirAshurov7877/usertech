@@ -19,6 +19,7 @@
 .studio-services-card{
      width: 320px;
      min-height: 400px;
+     text-align: center;
 }
 
 .studio-services-card .card-head{

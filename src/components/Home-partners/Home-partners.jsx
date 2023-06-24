@@ -1,51 +1,35 @@
-import './Home-partners.css'
-import radioCheck from '../../assets/images/Home-image/radio-check.png'
+import "./Home-partners.css";
+import radioCheck from "../../assets/images/Home-image/radio-check.png";
+import { useTranslation } from "react-i18next";
 
 const HomePartners = () => {
+  const { t } = useTranslation();
   return (
-    <div className='partners'>
+    <div className="partners">
       <div className="partners-element">
         <div className="element-container">
-           <div className="partners-box_l">
-            <h3>Чем мы можем быть Вам полезны?</h3>
+          <div className="partners-box_l">
+            <h3>{t("Partner.title1")}</h3>
             <h2>95% </h2>
-            <h3>наших клиентов окупают услуги уже в первый месяц работы</h3>
-           </div>
-           <div className="partners-box_r">
-            <h5>Разрабатываем веб и мобильные приложения, проводим эффективные маркетинговые кампании. <br /> Как разобраться во всем многообразии услуг и понять какой именно набор нужен именно Вам? Давайте начнем с разработки концепции!</h5>
-            <h2 style={{color:'#9F9F9F'}}>5%</h2>
-            <h4 style={{color:'#9F9F9F'}}>клиенты, которые заказывали услуги и не внедряли наши рекомендации</h4>
-           </div>
+            <h3>{t("Partner.title2")}</h3>
+          </div>
+          <div className="partners-box_r">
+            <h5>{t("Partner.title3")}</h5>
+            <h2 style={{ color: "#9F9F9F" }}>5%</h2>
+            <h4 style={{ color: "#9F9F9F" }}>{t("Partner.title4")}</h4>
+          </div>
         </div>
         <div className="partners-widget">
-           <div className="box">
-            <img src={radioCheck} alt="" />
-            <p>Разработка приложений</p>
-           </div>
-           <div className="box">
-            <img src={radioCheck} alt="" />
-            <p>Influence-маркетинг</p>
-           </div>
-           <div className="box">
-            <img src={radioCheck} alt="" />
-            <p>Криптовалюты и блокчейн</p>
-           </div>
-           <div className="box">
-            <img src={radioCheck} alt="" />
-            <p>PR и медиа</p>
-           </div>
-           <div className="box">
-            <img src={radioCheck} alt="" />
-            <p>Web3 и DeFi платформы</p>
-           </div>
-           <div className="box">
-            <img src={radioCheck} alt="" />
-            <p>Управление сообществами</p>
-           </div>
+          {[0, 1, 2, 3, 4, 5,].map((item,i) => (
+            <div className="box" key={i}>
+              <img src={radioCheck} alt="img" />
+              <p>{t(`Partner.widgets.${i}`)}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomePartners
+export default HomePartners;

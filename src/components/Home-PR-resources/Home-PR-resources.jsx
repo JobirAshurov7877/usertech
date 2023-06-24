@@ -14,6 +14,7 @@ import img10 from '../../assets/images/Home-image/lebedev_youtube.png'
 import img11 from '../../assets/images/Home-image/rbk.png'
 import img12 from '../../assets/images/Home-image/vedomosti.png'
 import StageProject from '../Stages-project/Stages-project'
+import { useTranslation } from 'react-i18next'
 
 
 
@@ -21,12 +22,13 @@ const images_1 =[img1,img2,img3,img4,img5,img6]
 const images_2 =[img7, img8 ,img9,img10, img11,img12   ]
 
 const HomePRresources = () => {
+  const { t } = useTranslation();
   return (
     <div className='resources-PR'>
       <div className="resources-PR-element">
-          <h2 className="title">Получите прямой доступ к лучшим ресурсам для PR </h2>
-         <ResourcesPRbox title={"Пресса"} images={images_1} />
-         <ResourcesPRbox title={"YouTube ресурсы"} images={images_2} />
+          <h2 className="title">{t("resources-PR.resources-PR-element.title")}</h2>
+         <ResourcesPRbox title={t("resources-PR.resources-PR-element.subtitle_1")} images={images_1} />
+         <ResourcesPRbox title={t("resources-PR.resources-PR-element.subtitle_2")} images={images_2} />
       </div>
       <StageProject />
     </div>

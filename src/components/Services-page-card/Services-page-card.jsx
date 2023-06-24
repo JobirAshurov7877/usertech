@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import './Services-page-card'
 
+
 const ServicesPageCard = ({image,card_title,card_desc}) => {
+ 
   return (
     <div className='services-page-card'>
         <div className="card-head">

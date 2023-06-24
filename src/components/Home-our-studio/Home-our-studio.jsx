@@ -1,21 +1,27 @@
-import './Home-our-studio.css'
-import table from '../../assets/images/Home-image/table.png'
+import "./Home-our-studio.css";
+import table from "../../assets/images/Home-image/table.png";
+import { useTranslation } from "react-i18next";
 
 const HomeOurStudio = () => {
+  const { t } = useTranslation();
   return (
-    <div className='our-studio'>
-       <div className="our-studio-element">
-           <div className="container-head">
-               <h3 className='title'>Принципы работы нашей студии</h3>
-               <p>Принципы работы нашей студии</p>
-               <p>Мы пообщаемся с вами и предложим решение, которое даст максимальный результат в ближайшее время. Не каждому бизнесу подходит SEO или нужен многостраничный сайт или web приложение.</p>
-           </div>
-           <div className="container-body">
-               <img className='table' src={table} alt="table" /> 
-           </div>
-       </div>
-    </div>
-  )
-}
+    <div className="our-studio">
+      <div className="our-studio-element">
+        <div className="container-head">
+          <h3 className="title">{t("our-studio.title")}</h3>
 
-export default HomeOurStudio
+          <p
+            dangerouslySetInnerHTML={{
+              __html: t("our-studio.text"),
+            }}
+          />
+        </div>
+        <div className="container-body">
+          <img className="table" src={table} alt="table" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HomeOurStudio;

@@ -1,52 +1,40 @@
-import './Our-agency.css'
-import helloImg from '../../../assets/images/Home-image/hello-img.png'
-import shape_l from '../../../assets/images/Studio-image/studio-bg-left.svg'
-import shape_r from '../../../assets/images/Studio-image/studio-bg-right.svg'
-import dark_shape from '../../../assets/images/Studio-image/Frame.png'
-import ShapeImg from '../../Shape-img/Shape-img'
+import "./Our-agency.css";
+import helloImg from "../../../assets/images/Home-image/hello-img.png";
+import shape_l from "../../../assets/images/Studio-image/studio-bg-left.svg";
+import shape_r from "../../../assets/images/Studio-image/studio-bg-right.svg";
+import dark_shape from "../../../assets/images/Studio-image/Frame.png";
+import ShapeImg from "../../Shape-img/Shape-img";
+import { useTranslation } from "react-i18next";
 
 const OurAgency = () => {
-     const descData = [
-          "Digital-агентство полного цикла USERTECH — российская IT компания, разработчики из Москвы и Санкт-Петербурга.",
+  const { t } = useTranslation();
 
-          "Наши клиентами являются компании из малого и среднего бизнеса, а так же стартап проекты с разных уголков мира. Наша команда подстраивается под каждого клиента и создает комфортные условия удаленного сотрудничества с возможностью контролировать проект в онлайн режиме.",
-
-          "Самый главный наш приоритет – это крепкое и долгосрочное сотрудничество по концепции Win-Win",
-
-          "При разработке команда Usertech использует современные технологии благодаря который было реализовано более 100 успешных проектов включая сложные-веб сервисы: образовательные платформы, B2B платформы, маркетплейсы, онлайн аукционы, финансовые платформы, а так же сложные корпоративные сайты.",
-
-          "Философия Usertch",
-
-          "Digital-агентство полного цикла Usertech бизнес за время реализации веб-проектов выработала свою философию работы с клиентами. Для нас клиент прежде всего наш партнер с которым мы работаем совместно для достижения поставленных целей перед проектом. Поэтому мы не просто анализируем вашу нишу, а в буквальном смысле этого слова погружаемся в ваш бизнес и начинаем понимать его так, как знаете его Вы. Только в таком случае получаются по-настоящему продающие сайты и качественные веб-сервисы, цифровые платформы, которые приносят реальные результаты.",
-
-          "Наша студия реализует открытый формат работы со своими клиентами при реализации проекта. В режиме реального времени наши заказчики с первого дня видят, как наши Дизайнеры создают макеты будущих сайтов и могут принимать участие в их создании без ограничений по правкам. После верстки макета, вы получаете доступ к шаблону сайта, где уже можете наблюдать за программированием, так называемой натяжкой сайта на систему управления сайтом. Наша задача – это успех вашего бизнеса, мы никогда не бросаем своих заказчиков и сопровождаем каждый проект после его сдачи и запуска.",
-     ]
-     return (
-          <div className='our-agency'>
-               <div className="section-container">
-                    <div className="our-agency-text-wrapper">
-                         <div className="text-head">
-                              <div className="img-box">
-                                   <img src={helloImg} alt="img" />
-                              </div>
-                              <div className="text-box">
-                                   <h4>Привет!!! Мы цифровое агенство Usertech.</h4>
-                              </div>
-                         </div>
-                         <h2 className='title'>О нашем агенстве</h2>
-
-                         <div className="description">
-                              {descData.map((e, index) => (
-                                   <p key={index}>{e}</p>
-                              ))}
-                         </div>
-
-                    </div>
-
-               </div>
-               <ShapeImg />
+  return (
+    <div className="our-agency">
+      <div className="section-container">
+        <div className="our-agency-text-wrapper">
+          <div className="text-head">
+            <div className="img-box">
+              <img src={helloImg} alt="img" />
+            </div>
+            <div className="text-box">
+              <h4>{t("Studio.hello")}</h4>
+            </div>
           </div>
-     )
-}
+          <h2 className="title">{t("Studio.studio_our_agency_title")}</h2>
 
-export default OurAgency
+          <div className="description">
+            <p
+              dangerouslySetInnerHTML={{
+                __html: t("Studio.studio_our_agency"),
+              }}
+            />
+          </div>
+        </div>
+      </div>
+      <ShapeImg />
+    </div>
+  );
+};
+
+export default OurAgency;

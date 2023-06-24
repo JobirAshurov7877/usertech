@@ -1,21 +1,45 @@
-import StagesProjectCard from './Stages-project-card'
-import './Stages-project.css'
-import gifRobot from '../../assets/images/Home-image/robot.gif'
+import StagesProjectCard from "./Stages-project-card";
+import "./Stages-project.css";
+import gifRobot from "../../assets/images/Home-image/robot.gif";
+import { useTranslation } from "react-i18next";
 
 const StageProject = () => {
+  const { t } = useTranslation();
+  const cardData = [
+    {
+      title: t("resources-PR.stagesProject.box_1.title"),
+      desc: t("resources-PR.stagesProject.box_1.desc"),
+    },
+    {
+      title: t("resources-PR.stagesProject.box_2.title"),
+      desc: t("resources-PR.stagesProject.box_2.desc"),
+    },{
+      title: t("resources-PR.stagesProject.box_3.title"),
+      desc: t("resources-PR.stagesProject.box_3.desc"),
+    },{
+      title: t("resources-PR.stagesProject.box_4.title"),
+      desc: t("resources-PR.stagesProject.box_4.desc"),
+    },{
+      title: t("resources-PR.stagesProject.box_5.title"),
+      desc: t("resources-PR.stagesProject.box_5.desc"),
+    },{
+      title: t("resources-PR.stagesProject.box_6.title"),
+      desc: t("resources-PR.stagesProject.box_6.desc"),
+    },
+  ];
   return (
     <div className="stagesProject">
       <div className="stagesProject-element">
         <div className="element-container">
           <div className="stagesProject-box_l">
-            <div className="title">Этапы развития Вашего проекта</div>
+            <div className="title">{t("resources-PR.stagesProject.title")}</div>
             <div className="box">
-              <StagesProjectCard title={'Этап 1'}  description={"Изучаем ваше ТЗ или помогаем вас его составить. Анализируем группу в среднем сегменте. Определяем целевую аудиторию сайта."} />
-              <StagesProjectCard title={'Этап 2'} description={"Разработка структуры и дизайна сайта в онлайн-режиме. Отрисовка дизайнерами адаптивных версий сайта. Согласование дизайн-макета с заказчиком."}/>
-              <StagesProjectCard title={'Этап 3'}  description={"Верстка макетов дизайна с учетом SEO. Адаптация верстки под все платформы. Тестирование верстки. Согласование с заказчиком."} />
-              <StagesProjectCard title={'Этап 4'} description={"Натяжка вёрстки на систему CMS. Программирование сайта и создание функционала. настройка и тестирование функционала сайта."}/>
-              <StagesProjectCard title={'Этап 5'}  description={"Наполнение сайта контентом. Базовая SEO оптимизация сайта. Размещение сайта на Хостинг."} />
-              <StagesProjectCard title={'Этап 6'}  description={"Поддержка сайта.Запуск и сопровждение рекламы для привлечения клиентов."}/>
+              {cardData.map((item, i) => (
+                <StagesProjectCard
+                  title={item.title}
+                  description={item.desc}
+                />
+              ))}
             </div>
           </div>
           <div className="stagesProject-box_r">
@@ -24,7 +48,7 @@ const StageProject = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default StageProject
+export default StageProject;
