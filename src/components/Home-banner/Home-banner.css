@@ -1,209 +1,210 @@
 .slider-container,
 .slider-list {
-     max-height: 500px;
+  max-height: 500px;
 }
 
 .btn_next {
-     background: transparent;
-     border: 1px solid #fff;
-     width: 70px;
-     height: 70px;
-     margin-right: 100px;
-     border-radius: 50%;
-     cursor: pointer;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 70px;
+  height: 70px;
+  margin-right: 100px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .btn_next_icon {
-     font-size: 35px;
-     color: #fff;
+  font-size: 35px;
+  color: #fff;
 }
 
 .slider-card {
-     width: 100%;
-     height: 500px;
-     background: url('../../assets/images/Home-image/banner-bg1.png') no-repeat center;
-     background-size: cover;
-     display: flex;
-     align-items: center;
-     color: #fff;
-     padding: 15px 45px;
+  width: 100%;
+  height: 500px;
+  background: url("../../assets/images/Home-image/banner-bg1.png") no-repeat
+    center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 15px 45px;
 }
 
 .slider-card2 {
-     background: url('../../assets/images/Home-image/banner-bg2.png') no-repeat center;
-     background-size: cover;
+  background: url("../../assets/images/Home-image/banner-bg2.png") no-repeat
+    center;
+  background-size: cover;
 }
 
 .slider-card3 {
-     background: url('../../assets/images/Home-image/banner-bg3.png') no-repeat center;
-     background-size: cover;
+  background: url("../../assets/images/Home-image/banner-bg3.png") no-repeat
+    center;
+  background-size: cover;
 }
 
 .slider-card4 {
-     background: url('../../assets/images/Home-image/banner-bg4.png') no-repeat center;
-     background-size: cover;
+  background: url("../../assets/images/Home-image/banner-bg4.png") no-repeat
+    center;
+  background-size: cover;
 }
 
 .slider-card5 {
-     background: url('../../assets/images/Home-image/banner-bg5.png') no-repeat center;
-     background-size: cover;
+  background: url("../../assets/images/Home-image/banner-bg5.png") no-repeat
+    center;
+  background-size: cover;
 }
 
 .banner-slider-element {
-     display: flex;
-     flex-direction: column;
-     height: 400px;
-     justify-content: space-evenly;
-
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-evenly;
 }
 
 .banner-sliderBox-l {
-     width: 60%;
+  width: 60%;
 }
 
 .banner-sliderBox-l h3 {
-     font-size: 40px;
-     font-weight: 500;
-
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .banner-sliderBox-l h2 {
-     font-size: 64px;
-     margin-top: 60px;
-     font-weight: 600;
+  display: block;
+  font-size: 64px;
+  margin-top: 60px;
+  font-weight: 600;
+  width: 500px;
 }
 
 .banner-slider-widget {
-     display: flex;
-     flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .banner-slider-widget .box {
-     display: flex;
-     align-items: center;
-     height: 30px;
-     margin: 0 15px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin: 0 15px;
 }
 
 .banner-slider-widget .box img {
-     width: 16px;
-     margin-right: 10px;
+  width: 16px;
+  margin-right: 10px;
 }
 
 .banner-slider-widget .box p {
-     font-size: 15px;
+  font-size: 15px;
 }
 
 .banner-sliderBox-r {
-     width: 35%;
-
+  width: 35%;
 }
 
 .banner-sliderBox-r .banner_img {
-     width: 450px;
-     height: 480px;
-     position: absolute;
-     right: 50px;
-     margin-top: -50px;
+  width: 450px;
+  height: 480px;
+  position: absolute;
+  right: 50px;
+  margin-top: -50px;
 }
 
 @media only screen and (max-width: 1270px) {
-     .banner-slider-widget {
-          flex-direction: column;
-     }
+  .banner-slider-widget {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 1260px) {
-     .banner-sliderBox-r .banner_img {
-          width: 400px;
-          height: 400px;
-          margin-top: 0px;
-     }
+  .banner-sliderBox-r .banner_img {
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+  }
 
-     .slider-card {
-          height: auto;
-     }
+  .slider-card {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-     .slider-card {
-          padding: 20px;
-     }
+  .slider-card {
+    padding: 20px;
+  }
 
-     .banner-sliderBox-r {
-          display: none;
-     }
+  .banner-sliderBox-r {
+    display: none;
+  }
 
-     .banner-sliderBox-l {
-          width: 100%;
+  .banner-sliderBox-l {
+    width: 100%;
+  }
 
-     }
+  .banner-slider-widget {
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 
-     .banner-slider-widget {
-          width: 250px;
-          height: 180px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-evenly;
+  .banner-sliderBox-l h3 {
+    font-size: 20px;
+  }
 
-     }
-
-     .banner-sliderBox-l h3 {
-          font-size: 20px;
-     }
-
-     .banner-sliderBox-l h2 {
-          font-size: 40px;
-          margin-top: 40px;
-     }
-
+  .banner-sliderBox-l h2 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .slider-container,
+  .slider-list {
+    max-height: 350px;
+  }
+  .btn_next {
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
-     .slider-container,
-     .slider-list {
-          max-height: 350px;
-     }
-     .btn_next {
-          width: 42px;
-          height: 42px;
-          margin-right: 20px;
-          border-radius: 50%;
-          cursor: pointer;
-     }
-     
-     .btn_next_icon {
-          font-size: 25px;
-          color: #fff;
-     }
+  .btn_next_icon {
+    font-size: 25px;
+    color: #fff;
+  }
 
-     .slider-card {
-          height: 350px;
-     }
-     .banner-slider-element {
-          height: 300px;
-     }
+  .slider-card {
+    height: 350px;
+  }
+  .banner-slider-element {
+    height: 300px;
+  }
 
-     .banner-sliderBox-l h3 {
-          font-size: 17px;
-     }
+  .banner-sliderBox-l h3 {
+    font-size: 17px;
+  }
 
-     .banner-sliderBox-l h2 {
-          font-size: 25px;
-          margin-top: 40px;
-     }
+  .banner-sliderBox-l h2 {
+    font-size: 25px;
+    margin-top: 40px;
+    width: 200px;
+  }
 
-     .banner-slider-widget {
-          height: 120px;
-     }
+  .banner-slider-widget {
+    height: 120px;
+  }
 
-     .banner-slider-widget .box img {
-          width: 13px;
-          margin-right: 10px;
-     }
+  .banner-slider-widget .box img {
+    width: 13px;
+    margin-right: 10px;
+  }
 
-     .banner-slider-widget .box p {
-          font-size: 12px;
-     }
+  .banner-slider-widget .box p {
+    font-size: 12px;
+  }
 }

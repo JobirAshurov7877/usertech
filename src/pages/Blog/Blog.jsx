@@ -47,7 +47,7 @@ const Blog = () => {
                 <img src={item?.img} alt="blogImg" />
               </div>
               <div className="card-content">
-                <h5>{t("Blog.h5")}</h5>
+                <h5>Blog news usertech</h5>
 
                 <h3 className="card-title">{item?.title}</h3>
 

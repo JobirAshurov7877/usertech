@@ -46,7 +46,7 @@ const Vacansy = () => {
                 <p dangerouslySetInnerHTML={{ __html: item?.content }} />
               </div>
               <div className="card-link_btn">
-                <Link to={`jobs-detail/${item.id}`}>{t("Jobs.button")}</Link>
+                <Link to={'/contact'}>{t("Jobs.button")}</Link>
               </div>
             </div>
           ))}

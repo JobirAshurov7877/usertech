@@ -40,6 +40,7 @@ const BlogChild = () => {
           config
         );
         setBlogDetailBottomCardData(response.data.results);
+        console.log(blogDetailBottomCardData);
       } catch (error) {
         console.log(error);
       }
@@ -48,11 +49,15 @@ const BlogChild = () => {
     getData();
   }, [changeLang, id]);
   return (
-    <Layout title={blogDetailCardData.title}>
+    <Layout
+      title={blogDetailCardData.title}
+      link={`https://usertech.ru/blog-detail/${id}`}
+      subtitle={blogDetailCardData.title}
+    >
       <div className="blog-child">
         <div className="section-container">
           <div className="blog-child-head">
-            <img src={blogDetailCardData?.img} alt="" />
+            <img src={blogDetailCardData?.img} alt="img" />
           </div>
           <div className="blog-child-content">
             <p
@@ -70,7 +75,7 @@ const BlogChild = () => {
                     <img src={item?.img} alt="blog-bottom-card-img" />
                   </div>
                   <div className="card-content">
-                  <h5>{t("Blog.h5")}</h5>
+                    <h5>{t("Blog.h5")}</h5>
 
                     <h3 className="card-title">{item?.title}</h3>
 
@@ -82,7 +87,9 @@ const BlogChild = () => {
                     />
                   </div>
                   <div className="card-btn">
-                    <Link to={`/blog-detail/${item?.id}`}>{t("Blog.button")}</Link>
+                    <Link to={`/blog-detail/${item?.id}`}>
+                      {t("Blog.button")}
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -90,7 +97,7 @@ const BlogChild = () => {
           </div>
         </div>
       </div>
-      </Layout>
+    </Layout>
   );
 };
 

@@ -30,9 +30,8 @@ const ServicesDetailCard = () => {
           config
         );
         setPage(response.data.count);
-        setCardData(response.data.results.reverse());
+        setCardData(response.data.results);
         console.log(cardData);
-        console.log(response.data);
       } catch (error) {
         console.log(error);
       }
@@ -42,7 +41,14 @@ const ServicesDetailCard = () => {
     getData();
   }, [changeLang, id, pageId]);
   return (
-    <Layout title={cardData[0]?.id_menu?.name}>
+    <Layout
+      title={`${cardData[0]?.id_menu?.name} Usertech - Digital агенство`}
+      link={`https://usertech.ru/services/sub_menu${id}`}
+      description={
+        "Услуги и цены по созданию сайтов  Вы можете выбрать как отдельные работы по созданию сайта, так и комплексные пакеты, где мы выполняем все необходимые работы под ключ. Если не знаете, с чего начать – спросите нашего специалиста, это бесплатно!Создадим крутой одностраничник с оригинальным дизайном и продающим текстом.  Разработаем корпоративный сайт, чтобы"
+      }
+      subtitle={cardData[0]?.id_menu?.name}
+    >
       <div className="services-child">
         <div className="section-container">
           <div className="services-child-head">
@@ -52,6 +58,7 @@ const ServicesDetailCard = () => {
           <div className="services-child-card-wrapper">
             {cardData.map((item, index) => (
               <div
+                key={index}
                 className="services-child-card"
                 data-aos="fade-right"
                 data-aos-offset={40}
@@ -69,7 +76,7 @@ const ServicesDetailCard = () => {
                 </div>
                 <div className="card-link_btn">
                   <Link to={`/services/menu_post_deteile/${item.id}/`}>
-                  {t("Services_detail.button")}
+                    {t("Services_detail.button")}
                   </Link>
                 </div>
               </div>

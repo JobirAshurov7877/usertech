@@ -23,9 +23,8 @@ const ServicesChildPage = () => {
           `https://api-usertech.ru/api/sayts/menu_post_deteile/${id}/`,
           config
         );
-        
+
         setMenu_post_detail_data(response.data[0]);
-        console.log(response.data)
       } catch (error) {
         console.log(error);
       }
@@ -34,8 +33,12 @@ const ServicesChildPage = () => {
     getData();
   }, [changeLang, id]);
   return (
-    <Layout title={menu_post_detail_data.title}>
-      
+    <Layout
+      title={menu_post_detail_data?.title}
+      link={`https://usertech.ru/menu_post_deteile/${id}/`}
+      subtitle={menu_post_detail_data?.title}
+      description={menu_post_detail_data?.content}
+    >
       <div className="services-child-page">
         <div className="services-child-page-head">
           <div className="section-container">

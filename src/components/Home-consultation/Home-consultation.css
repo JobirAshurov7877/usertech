@@ -169,6 +169,7 @@
 
 .carousel.carousel-slider .control-arrow{
   padding: 0;
+  position: fixed;
 }
 .consultation .form-body input,
 .consultation .form-body textarea{
