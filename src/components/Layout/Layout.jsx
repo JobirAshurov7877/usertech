@@ -13,7 +13,6 @@ const Layout = ({ children, title, subtitle, link, description }) => {
         <meta property="og:type" content="article" />
         <meta property="og:url" content={link} />
         <meta property="og:site_name" content="Usertech - Digital агенство" />
-        <meta property="og:description" content={description} />
       </Helmet>
 
       <main>{children}</main>

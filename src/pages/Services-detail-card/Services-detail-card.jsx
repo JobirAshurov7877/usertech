@@ -31,7 +31,6 @@ const ServicesDetailCard = () => {
         );
         setPage(response.data.count);
         setCardData(response.data.results);
-        console.log(cardData);
       } catch (error) {
         console.log(error);
       }
@@ -53,7 +52,7 @@ const ServicesDetailCard = () => {
         <div className="section-container">
           <div className="services-child-head">
             <h3 className="title">{t("Services_detail.title")}</h3>
-            <p>={t("Services_detail.content")}</p>
+            <p>{t("Services_detail.content")}</p>
           </div>
           <div className="services-child-card-wrapper">
             {cardData.map((item, index) => (

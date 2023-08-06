@@ -15,7 +15,7 @@ const HomeMain = () => {
                <div className="main-text-box">
                     <div className="text-box-header">
                          <h1>{t("Home.Home-main.title")}</h1>
-                         <p>{t("Home.Home-main.description")}</p>
+                         <h2>{t("Home.Home-main.description")}</h2>
                     </div>
                     <div className="text-box-button">
                          <Link to={'/services'}>{t("Home.Home-main.btn")}</Link>

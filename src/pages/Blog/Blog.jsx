@@ -26,6 +26,7 @@ const Blog = () => {
         config
       );
       setPage(response.data.count);
+
       setBlogCardData(response.data.results);
     } catch (error) {
       console.log(error);
@@ -35,7 +36,6 @@ const Blog = () => {
   useEffect(() => {
     getData();
   }, [changeLang, id, pageId]);
-
 
   return (
     <div className="blog">
@@ -66,11 +66,11 @@ const Blog = () => {
         </div>
       </div>
       <Pagination
-        count={Math.floor(page / 9) + 1}
+        count={Math.floor(page / 10) + 1}
         onChange={(e, value) => setPageId(value)}
         variant="outlined"
         color="primary"
-        sx={{display:'flex', justifyContent:'end', marginTop:"40px"}}
+        sx={{ display: "flex", justifyContent: "end", marginTop: "40px" }}
       />
     </div>
   );

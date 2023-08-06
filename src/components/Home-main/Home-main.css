@@ -21,9 +21,10 @@
   font-size: 64px;
   font-weight: 600;
 }
-.main-text-box .text-box-header p {
+.main-text-box .text-box-header h2 {
   font-size: var(--md-font-size);
   line-height: 30px;
+  font-weight: 500;
   margin: 24px 0;
 }
 .main-text-box .text-box-button {

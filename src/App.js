@@ -5,6 +5,8 @@ import {
   BlogChild,
   ContactPage,
   Home,
+  PageNotFound,
+  SecurityPage,
   ServicesChildPage,
   ServicesDetailCard,
   ServicesPage,
@@ -15,9 +17,12 @@ import { Footer, Navbar, StickyBtns } from "./components";
 import { LangContext } from "./context/langContext";
 import { useState } from "react";
 import Layout from "./components/Layout/Layout";
+import Sitemap from "./sitemap";
 
 function App() {
-  const [changeLang, setchangeLang] = useState(localStorage.getItem("lang"));
+  const [changeLang, setchangeLang] = useState(
+    localStorage.getItem("lang") || "ru"
+  );
 
   return (
     <>
@@ -115,6 +120,7 @@ function App() {
               }
             />
             <Route path="/blog-detail/:id" element={<BlogChild />} />
+
             <Route
               path="/jobs"
               element={
@@ -130,6 +136,24 @@ function App() {
                 </Layout>
               }
             />
+            <Route
+              path="/polisy"
+              element={
+                <Layout
+                  title={"Вакансии -  Usertech - Digital агенство"}
+                  link={"https://usertech.ru/polisy"}
+                  subtitle={"polisy"}
+                  description={
+                    "ВАКАНСИИ  Мы постоянно ищем лучшие таланты, кто готов улучшать свои навыки в разработке передовых технологий и делиться опытом.     СПЕЦИАЛИЗАЦИЯ: Project management СПЕЦИАЛИЗАЦИЯ: Back-end coding / Architecture СПЕЦИАЛИЗАЦИЯ:Front-end coding СПЕЦИАЛИЗАЦИЯ:Manage email campaigns СПЕЦИАЛИЗАЦИЯ:Experience in B2B sales     геореклама санкт-петербург разработкагеореклама спб под ключгеореклама спб купитьгеореклама спб создатьгеореклама спб разработка геореклама пите"
+                  }
+                >
+                  <SecurityPage />
+                </Layout>
+              }
+            />
+            <Route path="*" element={<PageNotFound />} />
+
+            <Route path="/sitemap.xml" element={<Sitemap />} />
           </Routes>
           <Footer />
         </LangContext.Provider>

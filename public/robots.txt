@@ -1,0 +1,3 @@
+User-agent:*
+Allow: /public
+Sitemap: http://usertech.ru/sitemap.xml

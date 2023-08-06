@@ -24,7 +24,7 @@ const ServicesPage = () => {
           "https://api-usertech.ru/api/sayts/sub_menu_all_views_sayts/",
           config
         );
-        console.log(response.data);
+
         setsServices(response.data);
       } catch (error) {
         console.log(error);

@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   height: 25px;
+  /* width: 25%; */
 }
 .nav-menu .nav-link a:hover {
   color: #969696;
@@ -83,7 +84,6 @@
 }
 .navbar .dropdown-menu {
   position: absolute;
-  display: flex;
   flex-direction: column;
   margin-top: 50px;
   margin-left: 0px;
@@ -97,9 +97,17 @@
   z-index: 99;
   background-color: #fff;
 }
+
+.navbar .dropdown-menu.active {
+  display: flex;
+}
+.navbar .dropdown-menu.no_active {
+  display: none;
+}
 .dropdown-box:hover .dropdown-menu {
   display: flex;
 }
+
 .navbar .dropdown-menu:nth-child(1) {
   border: none;
   background-color: #f08200;
@@ -118,8 +126,143 @@
 }
 .navbar .dropdown-menu li a {
   font-weight: 500;
-  text-align: center;
+
   font-size: var(--sm-font-size);
+  width: 100%;
+  margin-left: 20px;
+}
+.slider_nav .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider_nav .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__slider-slide {
+  -webkit-box-shadow: -4px -4px 16px rgba(163, 177, 198, 0.3),
+    6px 6px 16px rgba(163, 177, 198, 0.6),
+    -6px -6px 16px rgba(255, 255, 255, 0.6);
+  box-shadow: -4px -4px 16px rgba(163, 177, 198, 0.3),
+    6px 6px 16px rgba(163, 177, 198, 0.6),
+    -6px -6px 16px rgba(255, 255, 255, 0.6);
+  border-radius: 20px 100px 20px 20px;
+  padding: 30px;
+  width: 300px;
+  margin: 20px 0;
+  margin-left: 20px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+.intro__slide-title {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 17px;
+  line-height: 200%;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.intro__slide-title span {
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.intro__slide-title span img {
+  width: 28px;
+  height: 28px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.intro__slide-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+.intro__slide-text a {
+  font-weight: 700;
+  color: white;
+  text-align: start;
+}
+.intro__slide-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  z-index: 301;
+}
+.intro__slide-price {
+  background: #ffffff;
+  -webkit-box-shadow: inset 4px 4px 12px rgba(142, 155, 174, 0.6);
+  box-shadow: inset 4px 4px 12px rgba(142, 155, 174, 0.6);
+  border-radius: 6px;
+  padding: 6px 10px;
+
+  font-style: normal;
+  font-weight: 750;
+  font-size: 14px;
+  line-height: 130%;
+}
+.intro__slide-price::after {
+  content: " ₽";
+  font-family: sans-serif;
+}
+.services__item-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: -o-linear-gradient(303.78deg, #dbe0e7 9.7%, #f8fbff 86.02%);
+  background: linear-gradient(146.22deg, #dbe0e7 9.7%, #f8fbff 86.02%);
+  -webkit-box-shadow: 4px 4px 10px rgba(59, 64, 86, 0.1);
+  box-shadow: 4px 4px 10px rgba(59, 64, 86, 0.1);
+  border-radius: 10px;
+  margin-left: auto;
+}
+.services__item-btn img {
+  width: 6px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -135,6 +278,12 @@
   }
 }
 @media only screen and (max-width: 500px) {
+  .navbar .dropdown-menu.active {
+    display: flex;
+  }
+  .intro__slider-slide {
+    display: flex;
+  }
   .menu-bars {
     display: block;
   }
@@ -178,4 +327,6 @@
     margin: 5px;
     cursor: pointer;
   }
+}
+@media only screen and (max-width: 360px) {
 }

@@ -29,7 +29,7 @@ const ContactPage = () => {
 
   const fetchData = async (e) => {
     e.preventDefault();
-    console.log(about);
+   
     const data = {
       first_name: firstName,
       last_name: lastName,
@@ -59,7 +59,7 @@ const ContactPage = () => {
       setCompany("");
       setAbout("");
       setContent("");
-      console.log(response.data);
+      
     } catch (error) {
       console.log(error);
     }

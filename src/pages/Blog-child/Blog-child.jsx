@@ -40,7 +40,7 @@ const BlogChild = () => {
           config
         );
         setBlogDetailBottomCardData(response.data.results);
-        console.log(blogDetailBottomCardData);
+        
       } catch (error) {
         console.log(error);
       }

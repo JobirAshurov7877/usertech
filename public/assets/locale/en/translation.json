@@ -56,8 +56,44 @@
 
   "homePopularIndustries_title": {
     "title": "Popular Industries",
-    "text_1": "Our studio specializes in developing websites for various industries that are popular and in demand in Russia.",
-    "text_2": "We understand the importance of having an online presence, so we are happy to help you create an attractive and functional website for your business."
+    "text_default": "Our studio specializes in developing websites for various industries that are popular and in demand in Russia. We understand the importance of having an online presence, so we are happy to help you create an attractive and functional website for your business.",
+    "text_1": "<ul><li>Landing pages, Corporate websites, Online stores, catalog development</li><li>B2B portal development</li><li>Automated platform for creating and managing personal brands</li><li>Promo website development</li><li>Code auditing</li><li>Native application development</li><li>Cross-platform application development</li><li>IT system design</li></ul>",
+
+    "text_2": "<ul><li>Virtual personal trainers with artificial intelligence</li><li>Platform for sharing healthy recipes and diets</li><li>Fitness arena with virtual competitions and rewards for achievements</li><li>App for sleep monitoring and providing recommendations for better sleep</li><li>Platform for uniting athletes and forming teams for joint workouts</li><li>Virtual tours of world sports facilities and famous places</li><li>App for remote group fitness workouts</li><li>Platform for exchanging experience and advice on proper physical training</li><li>Interactive activity tracker with the ability to create challenges for oneself and friends</li><li>Platform for organizing and conducting charitable sports events</li></ul>",
+
+    "text_3": "<ul><li>Loyalty program using QR codes to receive discounts and bonuses</li><li>Interactive games and contests among customers with prizes like free food</li><li>Online orders with food customization and the creation of unique ingredient combinations</li><li>Advertisement videos and content uplifting mood and positively influencing appetite</li><li>Partnership with courier drivers for fast delivery and promotions</li><li>Interactive maps with all fast-food locations and information about offers</li><li>Customer feedback program and involving participants in menu ideas (menu design, format, etc.)</li><li>Development of custom mobile apps for convenient ordering and payment</li><li>Unique packaging with gamification elements for increased engagement</li><li>Promotional events and seasonal offers to attract customers and increase sales</li></ul>",
+
+    "text_4": "<ul><li>Online consultations with doctors and dentists through video communication</li><li>Platform for scheduling appointments and receiving visit reminders</li><li>Electronic medical records with access for patients and physicians</li><li>Health monitoring system for patients with chronic illnesses</li><li>Virtual tours of clinics and rooms to familiarize with equipment</li><li>Platform for exchanging experience among medical specialists</li><li>Interactive educational videos on prevention and treatment of various diseases</li><li>Development of special applications for treatment compliance monitoring</li><li>Partnership with fitness centers and dieticians for a comprehensive health approach</li><li>Platform for organizing online webinars and medical conferences</li></ul>",
+
+    "text_5": "<ul><li>Virtual themed rooms with interesting discussions and events (basically forums)</li><li>Platform for cultural exchange and language learning with native speakers</li><li>Interactive games and quizzes for user entertainment</li><li>Content store with unique content from creative users</li><li>Collaborative stories and books created collectively by users</li><li>Development of interactive filters and stickers for use in stories</li><li>Audio shows and podcasts featuring famous personalities</li><li>Virtual exhibitions and galleries to showcase artwork by artists</li><li>Special rankings and awards for user activity and engagement</li><li>Platform for organizing online meetings and demonstrations</li></ul>",
+
+    "text_6": "<ul><li>Platform for creating and selling unique souvenirs and handmade products</li><li>Virtual fitting rooms for online clothing and accessory try-ons</li><li>Customizable gift certificates and gifts with delivery</li><li>Platform for selling environmentally friendly and sustainable products</li><li>Interactive catalog with the ability to create fashionable outfits</li><li>Platform for exchanging and reselling used goods with quality checks</li><li>Subscriptions for monthly unique products and sets</li><li>Interactive reviews and video reviews from real customers</li><li>Marketplace for small manufacturers and artists to promote their products</li><li>Platform for creating and selling personalized children's products</li></ul>",
+    "text_7": "<ul><li>Blog with regular updates on legal information and advice.</li><li>Webinars and online seminars on relevant legal issues.</li><li>Partnership with bloggers and journalists to disseminate expert opinions.</li><li>Platform for online consultations and receiving legal advice.</li><li>Interactive case studies and successful customer stories with positive outcomes.</li><li>Virtual courses on the basics of law and legal processes.</li><li>Compilation of articles and news on important events in the legal field.</li><li>Platform for hosting and viewing online presentations by lawyers.</li><li>Partnership with organizations to provide free services to those in need.</li><li>Online legal document builders to simplify the process.</li></ul>",
+
+    "text_8": "<ul><li>Virtual fitting rooms and product reviews in augmented reality (very cool idea).</li><li>Platform for buying and selling exclusive and collectible items.</li><li>Content marketing campaigns involving popular bloggers and influencers.</li><li>Interactive shopping with the ability to create personal collections.</li><li>Partnership with fashion designers to create exclusive collections.</li><li>Price tracking for products and providing personalized discounts.</li><li>Platform for pre-orders and receiving new products before official release.</li><li>Virtual shopping tours of stores with different themes.</li><li>Compilation of stylistic looks and tips on choosing fashionable clothing.</li><li>Interactive shopping in social media with the ability to directly purchase products.</li></ul>",
+
+    "text_9": "<ul><li>Platform for investing in real estate with low commissions.</li><li>Virtual financial advisor with personalized recommendations (here also AI).</li><li>Platform for cryptocurrency exchange using artificial intelligence.</li><li>Mobile wallets supporting various currencies and contactless payment.</li><li>Platform for providing microloans using data analytics.</li><li>Interactive online courses on financial literacy and investing.</li><li>Platform for automatic budgeting and expense control.</li><li>Virtual exchange point for instant currency exchange without hidden fees.</li><li>Financial games and simulators to teach children and teenagers money management.</li><li>Platform for organizing charitable donations and financial support for those in need.</li></ul>",
+
+    "text_10": "<ul><li>Virtual real estate tours with the ability to view properties from anywhere in the world.</li><li>Platform for renting and selling commercial real estate for businesses.</li><li>Interactive online consultations with realtors and the ability to preview properties.</li><li>Partnership with interior designers to create attractive real estate photos.</li><li>Market price tracking and providing analytical data for clients.</li><li>Platform for providing real estate appraisal and insurance services.</li><li>Virtual real estate cards with detailed information about each property.</li><li>Partnership with architects and builders to create ready-made housing design projects.</li><li>Interactive real estate showings using augmented reality.</li><li>Platform for organizing real estate sales with bidding and auction options.</li></ul>",
+
+    "text_11": "<ul><li>Platform for searching and booking tours with personalized offers.</li><li>Virtual travels with the ability to choose exotic and unique routes.</li><li>Partnership with local guides and tour guides to organize unique tours.</li><li>Interactive maps with detailed information about places and landmarks.</li><li>Platform for organizing thematic and cultural festivals at tourist sites.</li><li>Information resources with tips and recommendations for safe travels.</li><li>Virtual travel guides with personalized route selections for each customer.</li><li>Partnership with tour companies to provide joint offers.</li><li>Interactive tours with the opportunity to communicate and meet other travelers.</li><li>Platform for creating and booking on-demand unique tours.</li></ul>",
+
+    "text_12": "<ul><li>Interactive lessons using virtual and augmented reality.</li><li>Platform for exchanging knowledge and experience between teachers and students.</li><li>Courses with practical assignments and online mentoring.</li><li>Partnership with universities and educational institutions to provide academic programs.</li><li>Interactive courses on entrepreneurship and business skills.</li><li>Platform for language learning through virtual conversational groups.</li><li>Development of professional skills and education using online masterclasses.</li><li>Partnership with corporations to conduct corporate training programs.</li><li>Interactive lessons on soft skills development and personal growth.</li><li>Platform for online education of children and teenagers according to school curriculums.</li></ul>",
+
+    "icon_text": [
+      "Websites and applications:",
+      "Websites and applications for the fitness industry",
+      "Promotion of websites for fast food",
+      "Websites and applications for medical centers and dentistry",
+      "Social networks and messengers",
+      "E-commerce stores and marketplaces",
+      "Promotion of websites for lawyers and attorneys",
+      "E-commerce projects",
+      "Fintech applications",
+      "Promotion of websites for realtors",
+      "Travel services for tour companies",
+      "Online platforms for education and professional development:"
+    ]
   },
 
   "home-studio-services": {
@@ -412,13 +448,12 @@
     "p-6": "On average, a technical specification takes 20-40 A4 pages. At the end of it, our company's specialists provide a cost and timeline calculation for project completion.",
     "h4-4": "How is a Technical Specification created?",
     "p-7": "<p>UserTech assigns a project manager to the client, who engages in dialogue to clarify the details of the desired application and proposes various solutions. If necessary, they may involve more specialized experts in the development of the technical specification, not only from a technical but also from a legal perspective.</p><p>The document is prepared in Google Docs, and we immediately provide access to it. This way, the client can monitor the document's preparation in real-time, make corrections or suggestions.</p>"
-  }
+  },
 
-,
   "Services": {
     "title": "How can we help you?",
     "content": "We develop web and mobile applications, conduct effective marketing campaigns. How to understand all the variety of services and understand what kind of set you need? Let's start with concept development!",
-    "button_card":"Learn more",
+    "button_card": "Learn more",
     "services_contact": {
       "title": "We are a full service IT company",
       "content": "All the necessary information on the development and promotion of projects is on the site. If you did not find the answer to your question , just contact us .",
@@ -430,10 +465,10 @@
     "content": "You can choose both individual work to create a site, and complex packages, where we perform all the necessary work on a turnkey basis. If you do not know where to start - ask our specialist, it's free!",
     "button": "More"
   },
-  "Services_child_button":"submit your application",
-  "Blog":{
-    "h5":"Blog news usertech",
-    "button":"Read"
+  "Services_child_button": "submit your application",
+  "Blog": {
+    "h5": "Blog news usertech",
+    "button": "Read"
   },
   "Jobs": {
     "title": "VACANCIES",
@@ -479,6 +514,6 @@
     "map": {
       "button": "Call",
       "location": "Legal address: 191119, Saint Petersburg, Socialisticheskaya 21"
-      }
+    }
   }
 }

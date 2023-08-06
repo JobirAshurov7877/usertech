@@ -22,7 +22,6 @@ const Vacansy = () => {
           `https://api-usertech.ru/api/sayts/vacansy_all_site_views/`,
           config
         );
-        console.log(response.data);
         setCardData(response.data);
       } catch (error) {
         console.log(error);
@@ -46,7 +45,7 @@ const Vacansy = () => {
                 <p dangerouslySetInnerHTML={{ __html: item?.content }} />
               </div>
               <div className="card-link_btn">
-                <Link to={'/contact'}>{t("Jobs.button")}</Link>
+                <Link to={"/contact"}>{t("Jobs.button")}</Link>
               </div>
             </div>
           ))}

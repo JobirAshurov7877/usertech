@@ -1,0 +1,12 @@
+/* TEAM */
+Lead Developer: Ibrohim
+Developer: Jobir
+
+
+/* CONTACT */
+Email: jobirashurov8@gmail.com
+
+
+
+/* THANKS */
+Special thanks to our supportive community and open-source contributors!
