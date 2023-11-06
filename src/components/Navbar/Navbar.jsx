@@ -47,7 +47,6 @@ const Navbar = () => {
   const location = useLocation();
   const [servicesShow, setServicesShow] = useState(false);
   const [studioShow, setStudioShow] = useState(false);
-  console.log(servicesShow);
 
   const { changeLang, setchangeLang } = useContext(LangContext);
 
@@ -181,10 +180,10 @@ const Navbar = () => {
                       </div>
 
                       <ul
-                        style={{
-                         
-                        }}
-                        className={`dropdown-menu  ${servicesShow ? "active" : "no_active"} `}
+                        style={{}}
+                        className={`dropdown-menu ${
+                          servicesShow ? "active" : "no_active"
+                        } `}
                         onClick={() => setMenuBarsToggle(false)}
                       >
                         {sevvicesMenu.map((item) => (

@@ -13,16 +13,20 @@ const StageProject = () => {
     {
       title: t("resources-PR.stagesProject.box_2.title"),
       desc: t("resources-PR.stagesProject.box_2.desc"),
-    },{
+    },
+    {
       title: t("resources-PR.stagesProject.box_3.title"),
       desc: t("resources-PR.stagesProject.box_3.desc"),
-    },{
+    },
+    {
       title: t("resources-PR.stagesProject.box_4.title"),
       desc: t("resources-PR.stagesProject.box_4.desc"),
-    },{
+    },
+    {
       title: t("resources-PR.stagesProject.box_5.title"),
       desc: t("resources-PR.stagesProject.box_5.desc"),
-    },{
+    },
+    {
       title: t("resources-PR.stagesProject.box_6.title"),
       desc: t("resources-PR.stagesProject.box_6.desc"),
     },
@@ -36,6 +40,7 @@ const StageProject = () => {
             <div className="box">
               {cardData.map((item, i) => (
                 <StagesProjectCard
+                  key={i}
                   title={item.title}
                   description={item.desc}
                 />

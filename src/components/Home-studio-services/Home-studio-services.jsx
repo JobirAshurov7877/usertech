@@ -41,7 +41,7 @@ const HomeStudioServices = () => {
                 <ul>
                   {data["home-studio-services"].card1.sub_title_li.map(
                     (item, i) => (
-                      <li>
+                      <li key={i}>
                         {" "}
                         {t(`home-studio-services.card1.sub_title_li.${i}`)}
                       </li>
@@ -76,7 +76,7 @@ const HomeStudioServices = () => {
                 <ul>
                   {data["home-studio-services"].card4.sub_title_li.map(
                     (item, i) => (
-                      <li>
+                      <li key={i}>
                         {" "}
                         {t(`home-studio-services.card4.sub_title_li.${i}`)}
                       </li>
@@ -98,16 +98,16 @@ const HomeStudioServices = () => {
           <div className="banner corporate-website">
             <div className="box box__1">
               <div className="box__title">
-                <Link to={"/services"}>{t("home-studio-services.card6.title")}</Link>
+                <Link to={"/services"}>
+                  {t("home-studio-services.card6.title")}
+                </Link>
               </div>
               <div className="box__content">
-                <p>
-                {t("home-studio-services.card6.title_ul")}
-                </p>
+                <p>{t("home-studio-services.card6.title_ul")}</p>
                 <ul>
                   {data["home-studio-services"].card6.sub_title_li.map(
                     (item, i) => (
-                      <li>
+                      <li key={i}>
                         {" "}
                         {t(`home-studio-services.card6.sub_title_li.${i}`)}
                       </li>
@@ -116,16 +116,12 @@ const HomeStudioServices = () => {
                 </ul>
               </div>
             </div>
-            <div className="box">
-            {t("home-studio-services.card7.title")}
-            </div>
+            <div className="box">{t("home-studio-services.card7.title")}</div>
             <div className="box">
               <img src={banner_3_star} alt="img" />
             </div>
             <div className="box">
-              <p>
-              {t("home-studio-services.card8.title")}
-              </p>
+              <p>{t("home-studio-services.card8.title")}</p>
             </div>
           </div>
 
@@ -133,14 +129,16 @@ const HomeStudioServices = () => {
           <div className="banner turnkey-landing">
             <div className="box box__1">
               <div className="box__title">
-                <Link to={"/services"}>{t("home-studio-services.card9.title")}</Link>
+                <Link to={"/services"}>
+                  {t("home-studio-services.card9.title")}
+                </Link>
               </div>
               <div className="box__content">
                 <p>{t("home-studio-services.card9.title")}</p>
                 <ul>
                   {data["home-studio-services"].card9.sub_title_li.map(
                     (item, i) => (
-                      <li>
+                      <li key={i}>
                         {" "}
                         {t(`home-studio-services.card9.sub_title_li.${i}`)}
                       </li>
@@ -162,14 +160,16 @@ const HomeStudioServices = () => {
           <div className="banner applications">
             <div className="box box__1">
               <div className="box__title">
-                <Link to={"/services"}>{t("home-studio-services.card11.title")}</Link>
+                <Link to={"/services"}>
+                  {t("home-studio-services.card11.title")}
+                </Link>
               </div>
               <div className="box__content">
                 <p>{t("home-studio-services.card11.title_ul")}</p>
                 <ul>
                   {data["home-studio-services"].card11.sub_title_li.map(
                     (item, i) => (
-                      <li>
+                      <li key={i}>
                         {" "}
                         {t(`home-studio-services.card11.sub_title_li.${i}`)}
                       </li>
@@ -198,13 +198,15 @@ const HomeStudioServices = () => {
           <div className="banner cms">
             <div className="box box__1">
               <div className="box__title">
-                <Link to={"/services"}>{t("home-studio-services.card14.title")}</Link>
+                <Link to={"/services"}>
+                  {t("home-studio-services.card14.title")}
+                </Link>
               </div>
               <div className="box__content">
                 <ul>
                   {data["home-studio-services"].card14.sub_title_li.map(
                     (item, i) => (
-                      <li>
+                      <li key={i}>
                         {" "}
                         {t(`home-studio-services.card14.sub_title_li.${i}`)}
                       </li>

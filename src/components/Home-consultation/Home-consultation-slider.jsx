@@ -12,15 +12,6 @@ const HomeConsultationSlider = () => {
     <div className="slider-wrapper">
       <Carousel infiniteLoop>
         <div>
-          <iframe
-            width=""
-            height="400"
-            src="https://www.youtube.com/embed/skFxXao2ry4"
-            title="ПРОДВИНУТАЯ РАБОТА С МУЛЬТИЯЗЫЧНОСТЬЮ В REACT | i18n"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
           <img
             className="slider-banner-img"
             src={SliderImage_1}
@@ -28,51 +19,15 @@ const HomeConsultationSlider = () => {
           />
         </div>
         <div>
-          <iframe
-            width="1020"
-            height="400"
-            src="https://www.youtube.com/embed/skFxXao2ry4"
-            title="ПРОДВИНУТАЯ РАБОТА С МУЛЬТИЯЗЫЧНОСТЬЮ В REACT | i18n"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
           <img src={SliderImage_2} alt="slider_img" />
         </div>
         <div>
-          <iframe
-            width="1020"
-            height="400"
-            src="https://www.youtube.com/embed/skFxXao2ry4"
-            title="ПРОДВИНУТАЯ РАБОТА С МУЛЬТИЯЗЫЧНОСТЬЮ В REACT | i18n"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
           <img src={SliderImage_3} alt="slider_img" />
         </div>
         <div>
-          <iframe
-            width=""
-            height="400"
-            src="https://www.youtube.com/embed/skFxXao2ry4"
-            title="ПРОДВИНУТАЯ РАБОТА С МУЛЬТИЯЗЫЧНОСТЬЮ В REACT | i18n"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
           <img src={SliderImage_4} alt="slider_img" />
         </div>
         <div>
-          <iframe
-            width="1020"
-            height="400"
-            src="https://www.youtube.com/embed/skFxXao2ry4"
-            title="ПРОДВИНУТАЯ РАБОТА С МУЛЬТИЯЗЫЧНОСТЬЮ В REACT | i18n"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
           <img src={SliderImage_5} alt="slider_img" />
         </div>
       </Carousel>

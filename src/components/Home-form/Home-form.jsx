@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 const HomeForm = () => {
   const [full_name, setFull_name] = useState("");
   const [phone_num, setPhone_num] = useState("");
+
   const { t } = useTranslation();
 
   const fetchData = async (e) => {
@@ -50,6 +51,7 @@ const HomeForm = () => {
                     placeholder={t("home-form.input_name")}
                     onChange={(e) => setFull_name(e.target.value)}
                     value={full_name}
+                    
                   />
                   <input
                     type="text"

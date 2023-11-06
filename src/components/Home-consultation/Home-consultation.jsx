@@ -1,13 +1,15 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import HomeConsultationSlider from "./Home-consultation-slider";
 import "./Home-consultation.css";
 import axios from "axios";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 const HomeConsultation = () => {
   const [full_name, setFull_name] = useState("");
   const [phone_num, setPhone_num] = useState("");
   const [content, setContent] = useState("");
+  const form = useRef();
   const { t } = useTranslation();
 
   const fetchData = async (e) => {
@@ -19,7 +21,7 @@ const HomeConsultation = () => {
     };
 
     try {
-      const response = await axios.post(
+      await axios.post(
         "https://api-usertech.ru/api/sayts/consultatsiya_post_sayts/",
         data,
         {
@@ -28,12 +30,33 @@ const HomeConsultation = () => {
           },
         }
       );
+
       setFull_name("");
       setPhone_num("");
       setContent("");
     } catch (error) {
       console.log(error);
     }
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_ey4dhzi",
+        "template_qhxofd9",
+        form.current,
+        "TOoXAkhkvRiMQtuey"
+      )
+      .then(
+        (result) => {
+          console.log("send message");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    fetchData(e);
   };
 
   return (
@@ -46,7 +69,7 @@ const HomeConsultation = () => {
               <p>{t("consultation.text")}</p>
             </div>
             <div className="form-body">
-              <form onSubmit={fetchData}>
+              <form onSubmit={sendEmail} ref={form}>
                 <p>
                   <input
                     type="text"
@@ -54,6 +77,7 @@ const HomeConsultation = () => {
                     required
                     onChange={(e) => setFull_name(e.target.value)}
                     value={full_name}
+                    name="user_name"
                   />
                 </p>
                 <p>
@@ -63,6 +87,7 @@ const HomeConsultation = () => {
                     required
                     onChange={(e) => setPhone_num(e.target.value)}
                     value={phone_num}
+                    name="user_number"
                   />
                 </p>
                 <p>
@@ -71,6 +96,7 @@ const HomeConsultation = () => {
                     required
                     onChange={(e) => setContent(e.target.value)}
                     value={content}
+                    name="message"
                   ></textarea>
                 </p>
                 <p>
@@ -81,9 +107,7 @@ const HomeConsultation = () => {
                     />
                   </div>
                 </p>
-                <p className="description">
-                  Н{t("consultation.description")}
-                </p>
+                <p className="description">Н{t("consultation.description")}</p>
               </form>
             </div>
           </div>

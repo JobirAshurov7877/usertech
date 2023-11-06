@@ -11,13 +11,13 @@
 }
 
 .bottom-sticky-section-cards .bottom-sticky-section-card {
-  height: 200px;
+  height: 100px;
   flex: 1;
   display: flex;
   color: #fff;
 }
 .bottom-sticky-section-cards .bottom-sticky-section-card img {
-  width: 75px;
+  width: 35px;
 }
 .bottom-sticky-section-cards .bottom-sticky-section-card p {
   font-weight: 500;

@@ -395,7 +395,7 @@
   "footer": {
     "description": "We have been developing websites for Russia and foreign markets since 2010. Our team consists of more than fifty employees in different countries and cities.",
     "address": "191119, St. Petersburg, Socialist 21",
-    "email": "e-mail: usertech78@ya.ru"
+    "email": "e-mail: s-penkin90@yandex.ru"
   },
 
   "Studio": {
@@ -506,7 +506,6 @@
       "input_checkbox_2": "Radio/TV",
       "input_checkbox_3": "Social media",
       "input_checkbox_4": "Other",
-
       "input_text": "Write",
       "input_text_placeholder": "Other",
       "input_button": "Send request"
