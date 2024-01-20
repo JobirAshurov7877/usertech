@@ -8,7 +8,6 @@ const Sitemap = () => {
     const sitemapItems = `<url>
         <loc>${window.location.origin}/</loc>
       </url>
-
       <url>
         <loc>${window.location.origin}/studio</loc>
       </url>
